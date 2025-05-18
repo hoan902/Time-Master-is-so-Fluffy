@@ -1,0 +1,12 @@
+chest.png
+size:284,293
+filter:Linear,Linear
+pma:true
+border
+bounds:2,2,280,102
+chest
+bounds:2,106,201,185
+offsets:1,1,203,187
+clock
+bounds:205,233,41,58
+offsets:1,1,43,60

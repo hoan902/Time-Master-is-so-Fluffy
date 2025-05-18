@@ -1,0 +1,8 @@
+zone_lock.png
+size:754,560
+filter:Linear,Linear
+pma:true
+quest
+bounds:644,410,108,148
+zone
+bounds:2,2,640,556

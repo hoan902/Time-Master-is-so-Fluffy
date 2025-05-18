@@ -1,0 +1,10 @@
+token_Ads.png
+size:369,192
+filter:Linear,Linear
+pma:true
+ads_token_L
+bounds:181,2,162,188
+ads_token_R
+bounds:2,2,177,188
+sparks
+bounds:345,160,22,30

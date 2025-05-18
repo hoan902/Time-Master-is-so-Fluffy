@@ -1,0 +1,14 @@
+ad_coin.png
+size:345,169
+filter:Linear,Linear
+pma:true
+ads
+bounds:256,71,87,96
+offsets:1,1,89,98
+border
+bounds:143,2,165,111
+offsets:1,1,167,113
+rotate:90
+coin
+bounds:2,17,139,150
+offsets:1,1,141,152

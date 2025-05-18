@@ -1,0 +1,140 @@
+{
+"skeleton": {
+	"hash": "woWrKgnvYaY",
+	"spine": "4.1.17",
+	"x": -319,
+	"y": -230.74,
+	"width": 657.75,
+	"height": 667.24,
+	"images": "./images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "x": -1.94, "y": -301.69 },
+	{ "name": "zone", "parent": "bone", "y": 210.48 },
+	{
+		"name": "quest",
+		"parent": "bone",
+		"rotation": -24.71,
+		"x": 272.44,
+		"y": 411.51,
+		"scaleX": 0.6,
+		"scaleY": 0.6
+	},
+	{ "name": "quest2", "parent": "quest", "length": 110.17, "rotation": 89.37, "y": 21.79 },
+	{
+		"name": "quest3",
+		"parent": "bone",
+		"rotation": 20.58,
+		"x": -221.12,
+		"y": 453.12,
+		"scaleX": 0.8,
+		"scaleY": 0.8
+	},
+	{ "name": "quest4", "parent": "quest3", "length": 110.17, "rotation": 89.37, "y": 21.79 },
+	{
+		"name": "quest5",
+		"parent": "bone",
+		"rotation": -6.32,
+		"x": 111.18,
+		"y": 551.3,
+		"scaleX": 1.2,
+		"scaleY": 1.2
+	},
+	{ "name": "quest6", "parent": "quest5", "length": 110.17, "rotation": 89.37, "y": 21.79 }
+],
+"slots": [
+	{ "name": "quest", "bone": "quest2", "attachment": "quest" },
+	{ "name": "quest3", "bone": "quest6", "attachment": "quest" },
+	{ "name": "quest2", "bone": "quest4", "attachment": "quest" },
+	{ "name": "zone", "bone": "zone", "attachment": "zone" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"quest": {
+				"quest": { "x": 55.14, "y": -1.16, "rotation": -89.37, "width": 108, "height": 148 }
+			},
+			"quest2": {
+				"quest": { "x": 55.14, "y": -1.16, "rotation": -89.37, "width": 108, "height": 148 }
+			},
+			"quest3": {
+				"quest": { "x": 55.14, "y": -1.16, "rotation": -89.37, "width": 108, "height": 148 }
+			},
+			"zone": {
+				"zone": { "x": 2.93, "y": 138.47, "width": 640, "height": 556 }
+			}
+		}
+	}
+],
+"animations": {
+	"idle": {
+		"bones": {
+			"zone": {
+				"translate": [
+					{
+						"curve": [ 0.333, 0, 0.667, 0, 0.333, 0, 0.667, 20.08 ]
+					},
+					{
+						"time": 1,
+						"y": 20.08,
+						"curve": [ 1.333, 0, 1.667, 0, 1.333, 20.08, 1.667, 0 ]
+					},
+					{ "time": 2 }
+				]
+			},
+			"quest3": {
+				"translate": [
+					{
+						"y": 9.19,
+						"curve": [ 0.113, 0, 0.223, 0, 0.113, 4.06, 0.223, 0 ]
+					},
+					{
+						"time": 0.3333,
+						"curve": [ 0.667, 0, 1, 0, 0.667, 0, 1, 35.15 ]
+					},
+					{
+						"time": 1.3333,
+						"y": 35.15,
+						"curve": [ 1.557, 0, 1.78, 0, 1.557, 35.15, 1.78, 19.6 ]
+					},
+					{ "time": 2, "y": 9.19 }
+				]
+			},
+			"quest5": {
+				"translate": [
+					{
+						"y": 35.15,
+						"curve": [ 0.333, 0, 0.667, 0, 0.333, 35.15, 0.667, 0 ]
+					},
+					{
+						"time": 1,
+						"curve": [ 1.333, 0, 1.667, 0, 1.333, 0, 1.667, 35.15 ]
+					},
+					{ "time": 2, "y": 35.15 }
+				]
+			},
+			"quest": {
+				"translate": [
+					{
+						"y": 25.96,
+						"curve": [ 0.224, 0, 0.446, 0, 0.224, 15.55, 0.446, 0 ]
+					},
+					{
+						"time": 0.6667,
+						"curve": [ 1, 0, 1.333, 0, 1, 0, 1.333, 35.15 ]
+					},
+					{
+						"time": 1.6667,
+						"y": 35.15,
+						"curve": [ 1.779, 0, 1.891, 0, 1.779, 35.15, 1.891, 31.25 ]
+					},
+					{ "time": 2, "y": 25.96 }
+				]
+			}
+		}
+	}
+}
+}

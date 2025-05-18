@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: atlas-bg-summer-catsle
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 4096
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 51
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 9e7c49f38ad24114180bb34e27f618c2, type: 3}
+    - {fileID: 102900000, guid: 2d31f76f669c7e848a5fdeab11e31296, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 04c7f3d0570273f488efb0ad5a009bc7, type: 3}
+  - {fileID: 21300000, guid: d6ed4952637321c4d92fedd336911e31, type: 3}
+  - {fileID: 21300000, guid: 3ab33db229aa86a4ea32faf8a24913bd, type: 3}
+  - {fileID: 21300000, guid: 3d6a25430997cd349b71cb2bf0be914c, type: 3}
+  - {fileID: 21300000, guid: 893f95a405f5a364dac22258cbc17983, type: 3}
+  - {fileID: 21300000, guid: 686687951213b1043886680db86bbff3, type: 3}
+  - {fileID: 21300000, guid: a0bbcbb5874b2e94c8eba853514c5918, type: 3}
+  - {fileID: 21300000, guid: 91996c07b016a20478d2db28a7a3c878, type: 3}
+  - {fileID: 21300000, guid: fba034187099ddb48ac678e0e80b2772, type: 3}
+  - {fileID: 21300000, guid: 0265e9f8dd25da245b060ed010571353, type: 3}
+  - {fileID: 21300000, guid: 127d3719e2b6e084388e13ea60bbc6cd, type: 3}
+  - {fileID: 21300000, guid: 27733969048e5b5438697e4cd10ed4d6, type: 3}
+  - {fileID: 21300000, guid: 6c7acf1a411f3e646bac0e9a13e1ebad, type: 3}
+  - {fileID: 21300000, guid: f4f7154a1693db74e9cf77b901a87720, type: 3}
+  - {fileID: 21300000, guid: 875c465a514879940a78b109d8866798, type: 3}
+  - {fileID: 21300000, guid: ec21ca6c79e05b84d89a82518a79d7ba, type: 3}
+  - {fileID: 21300000, guid: b80a811e60f33a045b396aab83c797cd, type: 3}
+  - {fileID: 21300000, guid: 7cc18d1eafd186c4fa3847a20e5384ca, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - summer-bg3-3
+  - bg-castle-1-2
+  - summer-bg3-1
+  - summer-bg1-1
+  - summer-bg1-3
+  - bg-castle-0-2
+  - summer-bg2-2
+  - summer-bg1-2
+  - summer-bg0-2
+  - summer-bg2-1
+  - summer-bg3-2
+  - bg-castle-0-1
+  - summer-bg0-3
+  - summer-bg0-1
+  - bg-castle-0-3
+  - bg-castle-1-3
+  - summer-bg2-3
+  - bg-castle-1-1
+  m_RenderDataMap: {}
+  m_Tag: atlas-bg-summer-catsle
+  m_IsVariant: 0

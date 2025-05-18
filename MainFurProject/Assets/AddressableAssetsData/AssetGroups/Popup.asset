@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Popup
+  m_EditorClassIdentifier: 
+  m_GroupName: Popup
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 6c1afd6c01669fd45bd5f3cc87111f21
+  m_SerializeEntries:
+  - m_GUID: d24f96aec06bfad489abcfabfbffed98
+    m_Address: Assets/Game/Assets/Prefabs/ui/popup/popup-shop-ingame.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0d245a44dfedfbe4a8243b0e903d2b8f
+    m_Address: Assets/Game/Assets/Prefabs/ui/popup/popup-shop-heart.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 39b2bbd3d6577614f87a69419e9325b3
+    m_Address: Assets/Game/Assets/Prefabs/ui/popup/popup-revive-stick.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c5c11e385a0d09d478322746c96150df
+    m_Address: Assets/Game/Assets/Prefabs/ui/popup/popup-update.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 85b5c2704944c954c94daf5657f402c0
+    m_Address: Assets/Game/Assets/Prefabs/ui/popup/popup-pause.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4f2b59a476df8cf4799a6a4ece9d99ba
+    m_Address: Assets/Game/Assets/Prefabs/ui/popup/popup-boost-items.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a66dab28a6d63a941be8766728a8971b
+    m_Address: Assets/Game/Assets/Prefabs/ui/popup/popup-watch-ads.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d7ef830f12b570044a8feb8fd3ac5f56
+    m_Address: Assets/Game/Assets/Prefabs/ui/popup/popup-revive-red-blue.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3644dbf525386af4080e8939ddaa66bc
+    m_Address: Assets/Game/Assets/Prefabs/ui/popup/popup-remove-ads.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7a7c14963cf8b2e4b9258d544a02b4e6
+    m_Address: Assets/Game/Assets/Prefabs/ui/popup/popup-subscribe.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3a07073f2a67d914fb3c112ef1883080
+    m_Address: Assets/Game/Assets/Prefabs/ui/popup/popup-daily-reward.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f67a6b3e70f875048855f19a2eebc992
+    m_Address: Assets/Game/Assets/Prefabs/ui/popup/popup-unlock-skin.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 29e45f34f00697446bf65b7c997c43fc
+    m_Address: Assets/Game/Assets/Prefabs/ui/popup/popup-shop.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 20c8080e6ec74004da63e34280145168
+    m_Address: Assets/Game/Assets/Prefabs/ui/popup/popup-boss-collection.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 011a6acd220e67949adc418018e571cd
+    m_Address: Assets/Game/Assets/Prefabs/ui/popup/popup-skin-combo-selection.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: e1aadab01e6f5104eb1295f6c3c1d4c7, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 5c474c75450faf241bb551b78e1b375d, type: 2}
+    - {fileID: 11400000, guid: 482ee36ce3ba2c647a52bc5b1192a049, type: 2}

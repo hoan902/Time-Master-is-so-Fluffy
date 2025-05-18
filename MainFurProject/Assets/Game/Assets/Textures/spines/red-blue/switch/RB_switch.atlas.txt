@@ -1,0 +1,17 @@
+RB_switch.png
+size:101,180
+filter:Linear,Linear
+pma:true
+scale:0.5
+blue/ct
+bounds:2,16,75,12
+blue/light
+bounds:2,117,97,61
+offsets:0,0,97,62
+red/ct
+bounds:2,2,75,12
+red/light
+bounds:2,54,97,61
+offsets:0,0,97,62
+switch
+bounds:2,30,92,22

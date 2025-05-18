@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: atlas-bg-winter-library
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 4096
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 51
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: a77d1ecc653b83541bd665d2628d7459, type: 3}
+    - {fileID: 102900000, guid: 8890aaea1d28665428f44f4412f1bd15, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 2ba94e00424bb7d4da3b7fbcc513a714, type: 3}
+  - {fileID: 21300000, guid: ad0a0151e1937854c83e9442ba28ff00, type: 3}
+  - {fileID: 21300000, guid: bf3d5b91f7516754d822c2634f806e4f, type: 3}
+  - {fileID: 21300000, guid: d77dc8b236af87343a2f020e8ef77e63, type: 3}
+  - {fileID: 21300000, guid: c492d9b2c8a803144abd68ee3f972e66, type: 3}
+  - {fileID: 21300000, guid: a1079b73963bd274c9cc6e7aa0c123f3, type: 3}
+  - {fileID: 21300000, guid: 4777b934e5bb85e42b8a9c2a6b9d9f13, type: 3}
+  - {fileID: 21300000, guid: 77d854b4642522a44a41f6056ab3ad45, type: 3}
+  - {fileID: 21300000, guid: afd62076eb132d8459d42337247aa484, type: 3}
+  - {fileID: 21300000, guid: 2f68b7897655460479d118c4331b4dd1, type: 3}
+  - {fileID: 21300000, guid: e29e49c9765349545874ed1e9086b4c6, type: 3}
+  - {fileID: 21300000, guid: 40f7f8d99d7377b41af1371c3fedfee0, type: 3}
+  - {fileID: 21300000, guid: a08c8d2bce14341428f826681d20872a, type: 3}
+  - {fileID: 21300000, guid: 432c405bb13544a498c364a4b5a173fb, type: 3}
+  - {fileID: 21300000, guid: 071b704d839bb92419ed5a5594b1d160, type: 3}
+  - {fileID: 21300000, guid: 5304668d7618be74386befc971f1b022, type: 3}
+  - {fileID: 21300000, guid: 558791adcac8c8f418aef93bedc1c527, type: 3}
+  - {fileID: 21300000, guid: b719b9cd6b0a488408f83f07b86dd358, type: 3}
+  - {fileID: 21300000, guid: cfb56efd162e3b04e8982bd57ef89bfc, type: 3}
+  - {fileID: 21300000, guid: b7f5d96f48ba9fd49bff7fbc3e4d5ff8, type: 3}
+  - {fileID: 21300000, guid: 9f2c33dfc94ffa348bc4b8da9c092a08, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - winter-bg2-1
+  - library_bg_1_2
+  - library_bg_2_3
+  - winter-bg3-2
+  - library_bg_3_1
+  - winter-bg3-3
+  - winter-bg1-3
+  - winter-bg0-1
+  - library_bg_2_2
+  - winter-bg3-1
+  - library_bg_1_1
+  - winter-bg0-3
+  - library_bg_1_3
+  - winter-bg1-1
+  - library_bg_3_3
+  - library_bg_3_2
+  - winter-bg1-2
+  - winter-bg2-2
+  - winter-bg0-2
+  - winter-bg2-3
+  - library_bg_2_1
+  m_RenderDataMap: {}
+  m_Tag: atlas-bg-winter-library
+  m_IsVariant: 0

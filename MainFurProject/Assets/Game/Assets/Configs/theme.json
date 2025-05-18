@@ -1,0 +1,203 @@
+{
+  "wall": [
+    {
+      "sprite_name": "Tuong1",
+      "price": 1000
+    },
+    {
+      "sprite_name": "Tuong2",
+      "price": 1000
+    }
+  ],
+  "bed": [
+    {
+      "sprite_name": "Giuong1",
+      "price": 1000
+    },
+    {
+      "sprite_name": "Giuong2",
+      "price": 2000
+    },
+    {
+      "sprite_name": "Giuong3",
+      "price": 3000
+    },
+    {
+      "sprite_name": "Giuong4",
+      "price": 3000
+    },
+    {
+      "sprite_name": "Giuong5",
+      "price": 4000
+    },
+    {
+      "sprite_name": "Giuong6",
+      "price": 5000
+    },
+    {
+      "sprite_name": "Giuong7",
+      "price": 2000
+    },
+    {
+      "sprite_name": "Giuong8",
+      "price": 6000
+    },
+    {
+      "sprite_name": "Giuong9",
+      "price": 5000
+    }
+  ],
+  "curtains": [],
+  "deco": [
+    {
+      "sprite_name": "deco1",
+      "price": 1000
+    },
+    {
+      "sprite_name": "deco2",
+      "price": 3000
+    },
+    {
+      "sprite_name": "deco3",
+      "price": 2000
+    },
+    {
+      "sprite_name": "deco4",
+      "price": 5000
+    },
+    {
+      "sprite_name": "deco5",
+      "price": 5000
+    },
+    {
+      "sprite_name": "deco6",
+      "price": 4000
+    },
+    {
+      "sprite_name": "deco7",
+      "price": 2000
+    },
+    {
+      "sprite_name": "deco8",
+      "price": 1000
+    },
+    {
+      "sprite_name": "deco9",
+      "price": 2500
+    }
+  ],
+  "deco_right": [
+    {
+      "sprite_name": "Decophai1",
+      "price": 3000
+    },
+    {
+      "sprite_name": "Decophai2",
+      "price": 5000
+    },
+    {
+      "sprite_name": "Decophai3",
+      "price": 2000
+    },
+    {
+      "sprite_name": "Decophai4",
+      "price": 4000
+    },
+    {
+      "sprite_name": "Decophai5",
+      "price": 5000
+    },
+    {
+      "sprite_name": "Decophai6",
+      "price": 2000
+    },
+    {
+      "sprite_name": "Decophai7",
+      "price": 2000
+    },
+    {
+      "sprite_name": "Decophai8",
+      "price": 2000
+    },
+    {
+      "sprite_name": "Decophai9",
+      "price": 5000
+    }
+  ],
+  "deco_left": [
+    {
+      "sprite_name": "Decotrai1",
+      "price": 2000
+    },
+    {
+      "sprite_name": "Decotrai2",
+      "price": 3000
+    },
+    {
+      "sprite_name": "Decotrai3",
+      "price": 4000
+    },
+    {
+      "sprite_name": "Decotrai4",
+      "price": 5000
+    },
+    {
+      "sprite_name": "Decotrai5",
+      "price": 3000
+    },
+    {
+      "sprite_name": "Decotrai6",
+      "price": 3000
+    },
+    {
+      "sprite_name": "Decotrai7",
+      "price": 4000
+    },
+    {
+      "sprite_name": "Decotrai8",
+      "price": 3000
+    },
+    {
+      "sprite_name": "Decotrai9",
+      "price": 2000
+    }
+  ],
+  "paint": [
+    {
+      "sprite_name": "Tranh1",
+      "price": 2000
+    },
+    {
+      "sprite_name": "Tranh2",
+      "price": 1000
+    },
+    {
+      "sprite_name": "Tranh3",
+      "price": 1000
+    },
+    {
+      "sprite_name": "Tranh4",
+      "price": 1000
+    },
+    {
+      "sprite_name": "Tranh5",
+      "price": 1000
+    },
+    {
+      "sprite_name": "Tranh6",
+      "price": 1000
+    },
+    {
+      "sprite_name": "Tranh7",
+      "price": 1000
+    },
+    {
+      "sprite_name": "Tranh8",
+      "price": 1000
+    },
+    {
+      "sprite_name": "Tranh9",
+      "price": 1000
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+"skeleton": {
+	"hash": "MYrJiaOifxs",
+	"spine": "4.1.17",
+	"x": -343.29,
+	"y": -282.38,
+	"width": 650,
+	"height": 671.94,
+	"images": "./images/",
+	"audio": "D:/Trang/1.MGIF/ball_6/22. update boss enemy/vu_tru"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "y": -502.08 },
+	{ "name": "dat", "parent": "bone", "x": 2.33, "y": 401.89 },
+	{ "name": "dat_1", "parent": "dat", "x": -154.93, "y": -66.06 },
+	{ "name": "bone2", "parent": "dat", "x": -105.99, "y": 256.47 },
+	{ "name": "bone3", "parent": "dat", "x": 93.72, "y": 429.75 },
+	{ "name": "cau_nho", "parent": "dat", "x": 7.92, "y": 400.11 },
+	{ "name": "bone_up", "parent": "dat", "x": -2.33, "y": 99.73 }
+],
+"slots": [
+	{ "name": "cau_2", "bone": "bone3", "attachment": "cau_2" },
+	{ "name": "cau_3", "bone": "bone3", "attachment": "cau_3" },
+	{ "name": "cau_nho", "bone": "cau_nho", "attachment": "cau_nho" },
+	{ "name": "cau", "bone": "bone2", "attachment": "cau" },
+	{ "name": "dat", "bone": "dat", "attachment": "dat" },
+	{ "name": "dat_1", "bone": "dat_1", "attachment": "dat_1" },
+	{ "name": "path", "bone": "bone3", "attachment": "path" }
+],
+"path": [
+	{
+		"name": "path_cons",
+		"bones": [ "cau_nho" ],
+		"target": "path"
+	}
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"cau": {
+				"cau": { "width": 403, "height": 403 }
+			},
+			"cau_2": {
+				"cau_2": { "width": 120, "height": 120 }
+			},
+			"cau_3": {
+				"cau_3": { "x": -4.83, "y": 6.06, "width": 179, "height": 102 }
+			},
+			"cau_nho": {
+				"cau_nho": { "x": -0.2, "y": 0.23, "width": 22, "height": 22 }
+			},
+			"dat": {
+				"dat": { "x": -20.61, "y": 115.81, "width": 650, "height": 596 }
+			},
+			"dat_1": {
+				"dat_1": { "x": 8.32, "y": -0.14, "width": 236, "height": 108 }
+			},
+			"path": {
+				"path": {
+					"type": "path",
+					"closed": true,
+					"lengths": [ 195.8, 393.21 ],
+					"vertexCount": 6,
+					"vertices": [ -107.29, 12.63, -85.8, -29.64, -66.99, -66.64, 99.36, 2.71, 74.78, 41.54, 50.37, 80.08 ]
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"idle": {
+		"bones": {
+			"dat": {
+				"translate": [
+					{
+						"curve": [ 0.25, 0, 0.75, 0, 0.25, 0, 0.75, -25.09 ]
+					},
+					{
+						"time": 1,
+						"y": -25.09,
+						"curve": [ 1.25, 0, 1.75, 0, 1.25, -25.09, 1.75, 0 ]
+					},
+					{ "time": 2 }
+				]
+			},
+			"bone2": {
+				"translate": [
+					{
+						"y": 1.36,
+						"curve": [ 0.127, 0, 0.245, 0, 0.127, 4.14, 0.245, 6.22 ]
+					},
+					{
+						"time": 0.3333,
+						"y": 6.22,
+						"curve": [ 0.583, 0, 1.083, 0, 0.583, 6.22, 1.083, -10.88 ]
+					},
+					{
+						"time": 1.3333,
+						"y": -10.88,
+						"curve": [ 1.495, 0, 1.766, 0, 1.495, -10.88, 1.766, -3.53 ]
+					},
+					{ "time": 2, "y": 1.36 }
+				]
+			},
+			"bone3": {
+				"translate": [
+					{
+						"y": -3.86,
+						"curve": [ 0.234, 0, 0.505, 0, 0.234, 3.33, 0.505, 14.11 ]
+					},
+					{
+						"time": 0.6667,
+						"y": 14.11,
+						"curve": [ 0.917, 0, 1.417, 0, 0.917, 14.11, 1.417, -10.98 ]
+					},
+					{
+						"time": 1.6667,
+						"y": -10.98,
+						"curve": [ 1.755, 0, 1.873, 0, 1.755, -10.98, 1.873, -7.92 ]
+					},
+					{ "time": 2, "y": -3.86 }
+				]
+			},
+			"cau_nho": {
+				"scale": [
+					{
+						"x": 1.098,
+						"y": 1.098,
+						"curve": [ 0.188, 1.226, 0.375, 1.353, 0.188, 1.226, 0.375, 1.353 ]
+					},
+					{
+						"time": 0.5,
+						"x": 1.353,
+						"y": 1.353,
+						"curve": [ 0.75, 1.353, 1.25, 0.842, 0.75, 1.353, 1.25, 0.842 ]
+					},
+					{
+						"time": 1.5,
+						"x": 0.842,
+						"y": 0.842,
+						"curve": [ 1.625, 0.842, 1.813, 0.97, 1.625, 0.842, 1.813, 0.97 ]
+					},
+					{ "time": 2, "x": 1.098, "y": 1.098 }
+				]
+			}
+		},
+		"path": {
+			"path_cons": {
+				"position": [
+					{},
+					{ "time": 2, "value": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 1.2,
+				"offsets": [
+					{ "slot": "cau_nho", "offset": -2 }
+				]
+			},
+			{ "time": 1.7667 }
+		]
+	}
+}
+}

@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: atlas-bg-autumn-universe
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 4096
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 51
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 7fa1e6862a9bcf545b0aed4c3f4be562, type: 3}
+    - {fileID: 102900000, guid: a030c013c0424ae48884dec3dffaab03, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 9634202039b56e145be2a431624fd4f6, type: 3}
+  - {fileID: 21300000, guid: 38ffd0f32e7c12445aaaa7d8723e1703, type: 3}
+  - {fileID: 21300000, guid: d5f13965c172b6c46841ff886908b049, type: 3}
+  - {fileID: 21300000, guid: d89e27a557890ab43892391e79929814, type: 3}
+  - {fileID: 21300000, guid: 27453c06dc87d144e887d8707f565a2b, type: 3}
+  - {fileID: 21300000, guid: 6ce89476044e00342bba1dfecdcae17e, type: 3}
+  - {fileID: 21300000, guid: b9b2b9c677ce7a2448a1dfb8c41063a2, type: 3}
+  - {fileID: 21300000, guid: 0f075ff6c8067e44c9e3573aaecc3302, type: 3}
+  - {fileID: 21300000, guid: a3822147f12e63f498eb98b75756f77b, type: 3}
+  - {fileID: 21300000, guid: cdd1a767ae801d74e8325ebe59e590a2, type: 3}
+  - {fileID: 21300000, guid: 1643a8c715a206544b2cc186f2f83330, type: 3}
+  - {fileID: 21300000, guid: 7b05302830d2ccd438205b0dc5c8be3d, type: 3}
+  - {fileID: 21300000, guid: 3341edb834b7a3e43adb56f64fecc142, type: 3}
+  - {fileID: 21300000, guid: ae781c1ab19ffec4ba994e61634d25b9, type: 3}
+  - {fileID: 21300000, guid: a4b7b56ac3335d844b89ae151d6aa0da, type: 3}
+  - {fileID: 21300000, guid: 326fe50b5f561b14796d504aca7e8fa2, type: 3}
+  - {fileID: 21300000, guid: e470a85c28403ee458d0731da4b3e25b, type: 3}
+  - {fileID: 21300000, guid: ddd038ac097866d46babedcb49de1b11, type: 3}
+  - {fileID: 21300000, guid: b5cb4f0dbd74ab040a40efac16e6fafd, type: 3}
+  - {fileID: 21300000, guid: cce2db9d0c902a54db283432aeb47d4c, type: 3}
+  - {fileID: 21300000, guid: 453c7eadf63786c4983113470fa40881, type: 3}
+  - {fileID: 21300000, guid: 380901cd554fdc947aa7d1bd67ea38d0, type: 3}
+  - {fileID: 21300000, guid: 5ce70bdd576e08e429343f662dca16f5, type: 3}
+  - {fileID: 21300000, guid: 693a643fe2b1ec046ab7012a6ca1b980, type: 3}
+  - {fileID: 21300000, guid: e1d3a34f592580c4b9f2330affd2157e, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - autumn-bg1-1
+  - bg_space_2_1
+  - bg_space_3_3
+  - bg_space_2_2
+  - autumn-bg2-1
+  - autumn-bg3-2
+  - bg_space_4_1
+  - bg_space_0_1
+  - autumn-bg0
+  - autumn-bg1-2
+  - bg_space_1_3
+  - autumn-bg3-1
+  - autumn-bg2-2
+  - autumn-bg2-3
+  - bg_space_3_1
+  - bg_space_0_3
+  - bg_space_2_3
+  - bg_space_1_2
+  - bg_space_4_2
+  - bg_space_4_3
+  - bg_space_1_1
+  - bg_space_3_2
+  - autumn-bg3-3
+  - autumn-bg1-3
+  - bg_space_0_2
+  m_RenderDataMap: {}
+  m_Tag: atlas-bg-autumn-universe
+  m_IsVariant: 0

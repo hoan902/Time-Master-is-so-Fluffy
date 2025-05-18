@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca02a8e3b8248c84db3c61963a3295d3, type: 3}
+  m_Name: unique-skin-config
+  m_EditorClassIdentifier: 
+  configs:
+  - skinID: 55
+    skill: 01000000
+    condition: 8
+    isSpecial: 0
+  - skinID: 63
+    skill: 03000000
+    condition: 10
+    isSpecial: 0
+  - skinID: 101
+    skill: 04000000
+    condition: 8
+    isSpecial: 0
+  - skinID: 104
+    skill: 06000000
+    condition: 8
+    isSpecial: 1
+  skillDisplays:
+  - boosterType: 0
+    topRightIcon: {fileID: 3222365875197676976, guid: 39ce6c15442f3ed418c0484905ca8dec,
+      type: 3}
+    underBallIcon: {fileID: 0}
+    overBallIcon: {fileID: 0}
+    effect: {fileID: 9075733093574455797, guid: 08617e9c526ca79438dbdb0946ca23df,
+      type: 3}
+  - boosterType: 1
+    topRightIcon: {fileID: 2809269999289389764, guid: 548db01f79249a548a94fa5bf1e5b090,
+      type: 3}
+    underBallIcon: {fileID: 0}
+    overBallIcon: {fileID: 0}
+    effect: {fileID: 2039321142652002797, guid: d1fc78e597184834f98c467ce70b4d28,
+      type: 3}
+  - boosterType: 2
+    topRightIcon: {fileID: 8837508004758120642, guid: a221de10d20aaed4ebda9dc2d63de73c,
+      type: 3}
+    underBallIcon: {fileID: 2527688826217018984, guid: 30847d7b4107f03419b4de25d072be84,
+      type: 3}
+    overBallIcon: {fileID: 0}
+    effect: {fileID: 1453499554509431931, guid: 7289d8eabf576694fb7b56c52f98f7fe,
+      type: 3}
+  - boosterType: 3
+    topRightIcon: {fileID: 6190557563860436288, guid: 683220a78fe83424ba825136a88647e2,
+      type: 3}
+    underBallIcon: {fileID: 8035861570790401195, guid: 7b066c6d453a3a5478e2f2406f91d803,
+      type: 3}
+    overBallIcon: {fileID: 0}
+    effect: {fileID: 4536081019669688186, guid: a9c81b092536b9242bc58dfa724e04fa,
+      type: 3}
+  - boosterType: 4
+    topRightIcon: {fileID: 6705593900977571884, guid: a85d7d38b0dbb454ba6930115a93b420,
+      type: 3}
+    underBallIcon: {fileID: 2820504753281862365, guid: 6c39867347d60f64d8f6d30c4109a4f7,
+      type: 3}
+    overBallIcon: {fileID: 0}
+    effect: {fileID: 0}
+  - boosterType: 5
+    topRightIcon: {fileID: 4583586546688525948, guid: 0dee72550b7b21d4e9c36c6937fbe7d0,
+      type: 3}
+    underBallIcon: {fileID: 5536984212569699311, guid: 650062d282663804393c0ea50cbf6f82,
+      type: 3}
+    overBallIcon: {fileID: 0}
+    effect: {fileID: 0}
+  - boosterType: 6
+    topRightIcon: {fileID: 2951033434359202739, guid: 003b6724f73dd5549a9a575f9f5b659d,
+      type: 3}
+    underBallIcon: {fileID: 2288035279758373817, guid: b2094a56cc8206243a9ecd7a05d715f1,
+      type: 3}
+    overBallIcon: {fileID: 0}
+    effect: {fileID: 0}

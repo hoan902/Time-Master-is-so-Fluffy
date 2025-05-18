@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: atlas-bg-spring-ramadan
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 4096
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 51
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 5b46d968ffc0e0c4b9142b35135030bd, type: 3}
+    - {fileID: 2800000, guid: 00f98ce2680d17f499e507273d27bc88, type: 3}
+    - {fileID: 102900000, guid: a9107082999ca5e4792f8608007156ea, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: a44fd2300e067a04fbb53c755b25ec90, type: 3}
+  - {fileID: 21300000, guid: 0bc1cf4157006c44981a9f55a2370c60, type: 3}
+  - {fileID: 21300000, guid: e5619a81a1db32642884b598fe46453e, type: 3}
+  - {fileID: 21300000, guid: a54002623f0354a42a3dd616ad331e16, type: 3}
+  - {fileID: 21300000, guid: fd4090e2fab516c4f993cf83487e7ddd, type: 3}
+  - {fileID: 21300000, guid: 00f98ce2680d17f499e507273d27bc88, type: 3}
+  - {fileID: 21300000, guid: 1f9d42b323a3f5341b4dcf5eb8d94d5f, type: 3}
+  - {fileID: 21300000, guid: e0f714b350b181646839b7dfb37121bf, type: 3}
+  - {fileID: 21300000, guid: 943bf594402178645878fde5d610cff1, type: 3}
+  - {fileID: 21300000, guid: f904f0a5b250126408c3e302be2e09dc, type: 3}
+  - {fileID: 21300000, guid: aaeb7136924957b478587565ddcfb980, type: 3}
+  - {fileID: 21300000, guid: 1d5641564a319e9499e05f671b32acfb, type: 3}
+  - {fileID: 21300000, guid: 23b364181f5bea34187fec2ddb03522a, type: 3}
+  - {fileID: 21300000, guid: 0d9c98c8006d09645b2624c7d8c6ee25, type: 3}
+  - {fileID: 21300000, guid: acd4a579842a60948ad811933e185293, type: 3}
+  - {fileID: 21300000, guid: 413accd98a6dcac429c319fc9b91bd21, type: 3}
+  - {fileID: 21300000, guid: 3c9431daca181a747a8d7d8f5a515f15, type: 3}
+  - {fileID: 21300000, guid: e06c25bb7207d2343b58b84bed2b7e73, type: 3}
+  - {fileID: 21300000, guid: 778dd7fca685b9f458f92de49f700824, type: 3}
+  - {fileID: 21300000, guid: d771c10d69e138f48b4c938cb84efb99, type: 3}
+  - {fileID: 21300000, guid: 1108e7fd5687dac4db14f2b54539d2d5, type: 3}
+  - {fileID: 21300000, guid: a7f008eecf98bda43abc7dbafc4a92ac, type: 3}
+  - {fileID: 21300000, guid: ce6dbcef74532d049a4c0d829098dc82, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - ramadan-bg3-2
+  - ramadan-bg0-3
+  - spring-bg3-1
+  - ramadan-bg1-3
+  - ramadan-bg2-3
+  - ramadan_moon
+  - spring-bg3-2
+  - spring-bg2-3
+  - spring-bg1-3
+  - spring-bg1-2
+  - ramadan-bg2-2
+  - ramadan-bg0-2
+  - ramadan-bg1-2
+  - spring-bg2-1
+  - ramadan-bg2-1
+  - spring-bg0
+  - ramadan-bg3-1
+  - spring-bg2-2
+  - spring-bg3-3
+  - ramadan-bg3-3
+  - ramadan-bg0-1
+  - spring-bg1-1
+  - ramadan-bg1-1
+  m_RenderDataMap: {}
+  m_Tag: atlas-bg-spring-ramadan
+  m_IsVariant: 0

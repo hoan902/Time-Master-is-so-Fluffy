@@ -1,0 +1,428 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
+  m_Name: AddressableAssetSettings
+  m_EditorClassIdentifier: 
+  m_DefaultGroup: 83d0c764e64620e48878f09bb21c6a04
+  m_CachedHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_OptimizeCatalogSize: 0
+  m_BuildRemoteCatalog: 0
+  m_BundleLocalCatalog: 0
+  m_CatalogRequestsTimeout: 0
+  m_DisableCatalogUpdateOnStart: 0
+  m_IgnoreUnsupportedFilesInBuild: 0
+  m_UniqueBundleIds: 0
+  m_NonRecursiveBuilding: 1
+  m_CCDEnabled: 0
+  m_maxConcurrentWebRequests: 500
+  m_ContiguousBundles: 1
+  m_StripUnityVersionFromBundleBuild: 0
+  m_DisableVisibleSubAssetRepresentations: 0
+  m_ShaderBundleNaming: 0
+  m_ShaderBundleCustomNaming: 
+  m_MonoScriptBundleNaming: 1
+  m_MonoScriptBundleCustomNaming: 
+  m_RemoteCatalogBuildPath:
+    m_Id: 4e2eb45a887f9fa4cb9867c8187c81d6
+  m_RemoteCatalogLoadPath:
+    m_Id: fac5f9119e081a948ab6b2e42c4d7317
+  m_ContentStateBuildPath: 
+  m_BuildAddressablesWithPlayerBuild: 2
+  m_overridePlayerVersion: 
+  m_GroupAssets:
+  - {fileID: 11400000, guid: 90b5029cdb48b1941b52252a62a2102a, type: 2}
+  - {fileID: 11400000, guid: e9133ddb5207aad4d9e3460bbbd1769b, type: 2}
+  - {fileID: 11400000, guid: 02c9264a51a92034887aa5a14f487fd9, type: 2}
+  - {fileID: 11400000, guid: 9ca9521b401a43e43a816a5110c9b30e, type: 2}
+  - {fileID: 11400000, guid: 8a542a7cb680d69498059d2dc7270994, type: 2}
+  - {fileID: 11400000, guid: bb0e069ce963c3548821488a4ac87f5b, type: 2}
+  m_BuildSettings:
+    m_CompileScriptsInVirtualMode: 0
+    m_CleanupStreamingAssetsAfterBuilds: 1
+    m_LogResourceManagerExceptions: 1
+    m_BundleBuildPath: Temp/com.unity.addressables/AssetBundles
+  m_ProfileSettings:
+    m_Profiles:
+    - m_InheritedParent: 
+      m_Id: 18b7e79477dc2a643bd65f6d83b7713f
+      m_ProfileName: Default
+      m_Values:
+      - m_Id: cac9129068a1e4f409ea5c3533eebe15
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 729be1de984a9bb44a00fe537a2c4ccb
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: b7a21c5b6a5c7144884fa7985e3bb22c
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 4e2eb45a887f9fa4cb9867c8187c81d6
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: fac5f9119e081a948ab6b2e42c4d7317
+        m_Value: http://[PrivateIpAddress]:[HostingServicePort]
+    m_ProfileEntryNames:
+    - m_Id: cac9129068a1e4f409ea5c3533eebe15
+      m_Name: BuildTarget
+      m_InlineUsage: 0
+    - m_Id: 729be1de984a9bb44a00fe537a2c4ccb
+      m_Name: Local.BuildPath
+      m_InlineUsage: 0
+    - m_Id: b7a21c5b6a5c7144884fa7985e3bb22c
+      m_Name: Local.LoadPath
+      m_InlineUsage: 0
+    - m_Id: 4e2eb45a887f9fa4cb9867c8187c81d6
+      m_Name: Remote.BuildPath
+      m_InlineUsage: 0
+    - m_Id: fac5f9119e081a948ab6b2e42c4d7317
+      m_Name: Remote.LoadPath
+      m_InlineUsage: 0
+    m_ProfileVersion: 1
+  m_LabelTable:
+    m_LabelNames:
+    - level-92
+    - level-15
+    - level-57
+    - level-50
+    - level-11
+    - level-31
+    - level-73
+    - level-37
+    - level-76
+    - level-84_bossDarkScarecrow
+    - level-86
+    - level-80
+    - level-39_bossUnderground
+    - level-27
+    - level-83
+    - level-24_bossGiantGolem
+    - level-26
+    - level-22
+    - level-44
+    - level-49
+    - level-93
+    - level-30
+    - level-53
+    - level-32
+    - level-25
+    - level-41
+    - level-58
+    - level-82
+    - level-69_trial_bossGoldhorn
+    - level-67
+    - level-14
+    - level-88
+    - level-97
+    - level-29
+    - level-66
+    - level-18
+    - level-87
+    - level-95
+    - level-28
+    - level-62
+    - level-42
+    - level-46
+    - level-13
+    - level-35
+    - level-21
+    - level-70
+    - level-90
+    - level-52
+    - level-45
+    - level-81
+    - level-94
+    - level-59
+    - level-79
+    - level-91
+    - level-68
+    - level-51
+    - level-75
+    - level-78
+    - level-38
+    - level-99_bossBoneLord
+    - level-40
+    - level-74
+    - level-55
+    - level-265_bossUnderground
+    - level-34
+    - level-72
+    - level-100
+    - level-61
+    - level-36
+    - level-85
+    - level-96
+    - level-17
+    - level-64
+    - level-160_bossUnderground
+    - level-33
+    - level-48
+    - level-71
+    - level-89
+    - level-65
+    - level-23
+    - level-60
+    - level-16
+    - level-98
+    - level-19
+    - level-77
+    - level-9_bossDarkScarecrow
+    - level-43
+    - level-20
+    - level-63
+    - level-10
+    - level-56
+    - level-12
+    - level-47
+    - level-15_bossKratos
+    - level-84_bossSoulKeeper
+    - level-202
+    - level-180
+    - level-172
+    - level-168
+    - level-218
+    - level-167
+    - level-175
+    - level-209
+    - level-142
+    - level-193
+    - level-153
+    - level-170
+    - level-165
+    - level-212
+    - level-185
+    - level-186
+    - level-143
+    - level-146
+    - level-160
+    - level-157
+    - level-201
+    - level-141
+    - level-158
+    - level-178
+    - level-198
+    - level-147
+    - level-204
+    - level-206
+    - level-211
+    - level-176
+    - level-213
+    - level-205
+    - level-195
+    - level-148
+    - level-3_1
+    - level-69_bossGoldhorn
+    - level-54_bossJungleGuardian
+    - level-224
+    - level-228
+    - level-233
+    - level-229
+    - level-225
+    - level-264
+    - level-231
+    - level-223
+    - level-226
+    - level-221
+    - level-222
+    - level-227
+    - level-232
+    - level-234
+    - level-230
+    - level-103
+    - level-102
+    - level-105
+    - level-101
+    - level-104
+    - level-191
+    - level-197
+    - level-150
+    - level-188
+    - level-184
+    - level-216
+    - level-177
+    - level-203
+    - level-152
+    - level-181
+    - level-182
+    - level-159
+    - level-164
+    - level-219
+    - level-192
+    - level-154
+    - level-214
+    - level-189
+    - level-166
+    - level-210
+    - level-169
+    - level-217
+    - level-179
+    - level-155
+    - level-171
+    - level-196
+    - level-199
+    - level-220
+    - level-183
+    - level-200
+    - level-194
+    - level-207
+    - level-151
+    - level-149
+    - level-174
+    - level-145
+    - level-140
+    - level-156
+    - level-173
+    - level-215
+    - level-208
+    - level-187
+    - level-299
+    - level-298
+    - level-297
+    - level-296
+    - level-295
+    - level-294
+    - level-293
+    - level-292
+    - level-291
+    - level-290
+    - level-289
+    - level-288
+    - level-287
+    - level-286
+    - level-285
+    - level-284
+    - level-283
+    - level-282
+    - level-281
+    - level-280_bossDarkScarecrow_2
+    - level-279
+    - level-278
+    - level-277
+    - level-276
+    - level-275
+    - level-274
+    - level-273
+    - level-272
+    - level-271
+    - level-270
+    - level-269
+    - level-268
+    - level-267
+    - level-266
+    - level-107
+    - level-259
+    - level-258
+    - level-257
+    - level-256
+    - level-255
+    - level-254
+    - level-251
+    - level-109
+    - level-249
+    - level-247
+    - level-246
+    - level-245
+    - level-244
+    - level-243
+    - level-242
+    - level-241
+    - level-240
+    - level-239
+    - level-238
+    - level-237
+    - level-236
+    - level-139
+    - level-138
+    - level-137
+    - level-136
+    - level-135
+    - level-134
+    - level-133
+    - level-132
+    - level-131
+    - level-130
+    - level-129
+    - level-128
+    - level-127
+    - level-126
+    - level-125
+    - level-124
+    - level-123
+    - level-122
+    - level-121
+    - level-120
+    - level-119
+    - level-118
+    - level-117
+    - level-116
+    - level-115
+    - level-190_bossSoulKeeper
+    - level-113
+    - level-112
+    - level-163
+    - level-162
+    - level-161
+    - level-108
+    - level-114
+    - level-9_trial_bossDarkScarecrow
+    - level-15_trial_bossKratos
+    - level-24_trial_bossGiantGolem
+    - level-39_trial_bossUnderground
+    - level-54_trial_bossJungleGuardian
+    - level-99_trial_bossBoneLord
+    - level-84_trial_bossSoulKeeper
+    - level-106
+    - level-115_bossGiantGolem_2
+    - level-130_bossDarkScarecrow
+    - level-145_bossSoulKeeper
+    - level-175_bossBoneLord_2
+    - level-300_bossSoulKeeper
+    - level-250_bossGoldhorn_2
+    - level-205_bossDarkScarecrow_2
+    - level-220_bossUnderground_2
+    - level-235_bossJungleGuardian_2
+    - level-110
+    - level-111
+    - level-252
+    - level-253
+    - level-260
+    - level-261
+    - level-262
+    - level-263
+    - level-248
+    - level-144
+    - level-0
+    - level-1
+    - level-3
+    - level-6
+    - level-4
+    - level-2
+    - level-5
+    - level-7
+    - level-8
+  m_SchemaTemplates: []
+  m_GroupTemplateObjects:
+  - {fileID: 11400000, guid: 16a83af09b89c804b8755d87af874cfe, type: 2}
+  m_InitializationObjects: []
+  m_CertificateHandlerType:
+    m_AssemblyName: 
+    m_ClassName: 
+  m_ActivePlayerDataBuilderIndex: 4
+  m_DataBuilders:
+  - {fileID: 11400000, guid: 99e4771b8c241bb42aca6274fdabd905, type: 2}
+  - {fileID: 11400000, guid: 8524303f005b79e4091c0827b26f2c5b, type: 2}
+  - {fileID: 11400000, guid: a20d4706597a4684ab986a49358458d8, type: 2}
+  - {fileID: 11400000, guid: 50585ad4ea9f24a4c97aef2fdaf20a4f, type: 2}
+  - {fileID: 11400000, guid: abd4b91b9b4dd2e4dbdd50d07cc81b7d, type: 2}
+  m_ActiveProfileId: 18b7e79477dc2a643bd65f6d83b7713f
+  m_HostingServicesManager:
+    m_HostingServiceInfos: []
+    m_Settings: {fileID: 11400000}
+    m_NextInstanceId: 0
+    m_RegisteredServiceTypeRefs: []

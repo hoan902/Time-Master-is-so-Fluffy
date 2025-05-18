@@ -1,0 +1,84 @@
+Dark_Scarecrow.png
+size:3969,2405
+filter:Linear,Linear
+pma:true
+Group 6
+bounds:2,462,1250,1941
+offsets:2,2,1253,2017
+Layer 63
+bounds:2975,601,294,494
+offsets:2,1,296,496
+Layer 64
+bounds:1596,78,429,286
+offsets:1,1,432,288
+Layer 65
+bounds:3209,18,206,245
+offsets:2,1,210,247
+Layer 68
+bounds:3203,265,214,318
+offsets:1,1,216,320
+Layer 69
+bounds:2790,107,192,348
+offsets:0,0,193,348
+Layer 70
+bounds:2,65,446,395
+Layer 71
+bounds:3271,802,489,293
+offsets:1,1,491,295
+Layer 72
+bounds:2255,457,718,638
+Layer 73
+bounds:450,39,406,421
+Layer 74
+bounds:2541,38,247,417
+Layer 75
+bounds:3271,585,237,215
+offsets:1,1,239,217
+Layer 76
+bounds:3874,314,92,170
+Layer 77
+bounds:3728,37,153,201
+Layer 78
+bounds:2984,72,223,178
+Layer 79
+bounds:3417,42,128,124
+Layer 84
+bounds:1254,366,811,663
+offsets:0,1,811,664
+as1
+bounds:2027,2,167,249
+as2
+bounds:858,25,304,435
+as3
+bounds:3762,793,126,302
+as4
+bounds:3510,464,225,336
+as5
+bounds:2984,252,217,347
+as6
+bounds:2750,1741,1081,662
+at1
+bounds:3728,240,144,222
+at2
+bounds:2255,48,284,407
+at3
+bounds:3622,194,104,268
+at4
+bounds:3419,168,201,294
+at5
+bounds:3737,486,192,305
+at6
+bounds:2750,1097,1059,642
+chan
+bounds:2067,253,186,776
+offsets:1,1,188,778
+d1
+bounds:1164,12,430,352
+d2
+bounds:3811,1235,108,460
+d3
+bounds:3833,1697,134,706
+v1
+bounds:1254,1031,917,1372
+v2
+bounds:2173,1168,575,1235

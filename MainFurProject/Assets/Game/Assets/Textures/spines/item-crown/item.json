@@ -1,0 +1,333 @@
+{
+"skeleton": { "hash": "PmMTdovvfB0", "spine": "4.1.17", "images": "./images/", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "magnet", "parent": "root", "x": 0.09, "y": 47.96 },
+	{ "name": "gold_flask", "parent": "root", "y": 46.95 },
+	{ "name": "ring", "parent": "root", "y": 37.74 },
+	{ "name": "wing", "parent": "ring", "x": 50, "y": 8.85 },
+	{ "name": "wing_2", "parent": "wing", "length": 65, "rotation": 39.1 },
+	{ "name": "wing2", "parent": "ring", "x": -50.12, "y": 8.85, "scaleX": -1 },
+	{ "name": "wing_3", "parent": "wing2", "length": 65, "rotation": 39.1 },
+	{ "name": "crown", "parent": "root", "y": 158.19 }
+],
+"slots": [
+	{ "name": "magnet/magnet_1", "bone": "magnet" },
+	{ "name": "gold_flask/item_gold_flask", "bone": "gold_flask" },
+	{ "name": "ring/ring", "bone": "ring" },
+	{ "name": "ring/wing", "bone": "wing_2" },
+	{ "name": "ring/wing2", "bone": "wing_3" },
+	{ "name": "crown/crown-bling_01", "bone": "crown" },
+	{ "name": "crown/item_crown", "bone": "crown" },
+	{ "name": "gold_flask/gold", "bone": "gold_flask" },
+	{ "name": "gold_flask/star", "bone": "gold_flask" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"crown/crown-bling_01": {
+				"crown/crown-bling_01": { "width": 150, "height": 90 },
+				"crown/crown-bling_02": { "width": 150, "height": 90 },
+				"crown/crown-bling_03": { "width": 150, "height": 90 },
+				"crown/crown-bling_04": { "width": 150, "height": 90 },
+				"crown/crown-bling_05": { "width": 150, "height": 90 },
+				"crown/crown-bling_06": { "width": 150, "height": 90 },
+				"crown/crown-bling_07": { "width": 150, "height": 90 },
+				"crown/crown-bling_08": { "width": 150, "height": 90 },
+				"crown/crown-bling_09": { "width": 150, "height": 90 },
+				"crown/crown-bling_10": { "width": 150, "height": 90 },
+				"crown/crown-bling_11": { "width": 150, "height": 90 }
+			},
+			"crown/item_crown": {
+				"crown/item_crown": { "width": 150, "height": 90 }
+			},
+			"gold_flask/gold": {
+				"gold_flask/gold": {
+					"type": "mesh",
+					"uvs": [ 0.12545, 0.3639, 0.18726, 0.0505, 0.4742, 0.04973, 0.74989, 0.04899, 0.83176, 0.3603, 1, 1, 0.48632, 1, 0, 1, 0.48025, 0.36735 ],
+					"triangles": [ 8, 2, 3, 8, 3, 4, 1, 2, 8, 0, 1, 8, 6, 8, 4, 0, 8, 6, 7, 0, 6, 6, 4, 5 ],
+					"vertices": [ -19.23, -6, -16.01, 14.68, -1.09, 14.73, 13.24, 14.78, 17.5, -5.76, 26.25, -47.98, -0.46, -47.98, -25.75, -47.98, -0.78, -6.23 ],
+					"hull": 8,
+					"edges": [ 14, 0, 0, 2, 10, 8, 8, 6, 2, 4, 4, 6, 10, 12, 12, 14 ],
+					"width": 52,
+					"height": 66
+				}
+			},
+			"gold_flask/item_gold_flask": {
+				"gold_flask/item_gold_flask": { "x": 0.5, "y": 0.5, "width": 67, "height": 109 }
+			},
+			"gold_flask/star": {
+				"gold_flask/star": { "x": -1.25, "y": -15.73, "width": 41, "height": 40 }
+			},
+			"magnet/magnet_1": {
+				"magnet/magnet_1": { "width": 78, "height": 97 },
+				"magnet/magnet_2": { "width": 78, "height": 97 },
+				"magnet/magnet_3": { "width": 78, "height": 97 },
+				"magnet/magnet_4": { "width": 78, "height": 97 },
+				"magnet/magnet_5": { "width": 78, "height": 97 },
+				"magnet/magnet_6": { "width": 78, "height": 97 },
+				"magnet/magnet_7": { "width": 78, "height": 97 },
+				"magnet/magnet_8": { "width": 78, "height": 97 }
+			},
+			"ring/ring": {
+				"ring/ring": { "x": 0.5, "y": 0.5, "width": 87, "height": 75 }
+			},
+			"ring/wing": {
+				"ring/wing": { "x": 26.51, "y": -4.27, "rotation": -39.1, "width": 61, "height": 65 }
+			},
+			"ring/wing2": {
+				"ring/wing": { "x": 26.51, "y": -4.27, "rotation": -39.1, "width": 61, "height": 65 }
+			}
+		}
+	}
+],
+"animations": {
+	"crown": {
+		"slots": {
+			"crown/crown-bling_01": {
+				"attachment": [
+					{ "time": 0.0667, "name": "crown/crown-bling_01" },
+					{ "time": 0.1333, "name": "crown/crown-bling_02" },
+					{ "time": 0.2, "name": "crown/crown-bling_03" },
+					{ "time": 0.2667, "name": "crown/crown-bling_04" },
+					{ "time": 0.3333, "name": "crown/crown-bling_05" },
+					{ "time": 0.4, "name": "crown/crown-bling_06" },
+					{ "time": 0.4667, "name": "crown/crown-bling_07" },
+					{ "time": 0.5333, "name": "crown/crown-bling_08" },
+					{ "time": 0.6, "name": "crown/crown-bling_09" },
+					{ "time": 0.6667, "name": "crown/crown-bling_10" },
+					{ "time": 0.7333, "name": "crown/crown-bling_11" },
+					{ "time": 0.8 }
+				]
+			},
+			"crown/item_crown": {
+				"attachment": [
+					{ "name": "crown/item_crown" },
+					{ "time": 0.0667 },
+					{ "time": 0.8, "name": "crown/item_crown" }
+				]
+			}
+		},
+		"bones": {
+			"crown": {
+				"translate": [
+					{
+						"y": -119.39,
+						"curve": [ 0.222, 0, 0.444, 0, 0.222, -119.39, 0.444, -122.88 ]
+					},
+					{
+						"time": 0.6667,
+						"y": -122.88,
+						"curve": [ 0.889, 0, 1.111, 0, 0.889, -122.88, 1.111, -119.39 ]
+					},
+					{ "time": 1.3333, "y": -119.39 }
+				],
+				"scale": [
+					{
+						"curve": [ 0.222, 1, 0.444, 0.9, 0.222, 1, 0.444, 0.9 ]
+					},
+					{
+						"time": 0.6667,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.889, 0.9, 1.111, 1, 0.889, 0.9, 1.111, 1 ]
+					},
+					{ "time": 1.3333 }
+				]
+			}
+		}
+	},
+	"gold_flask": {
+		"slots": {
+			"gold_flask/gold": {
+				"attachment": [
+					{ "name": "gold_flask/gold" }
+				]
+			},
+			"gold_flask/item_gold_flask": {
+				"attachment": [
+					{ "name": "gold_flask/item_gold_flask" }
+				]
+			},
+			"gold_flask/star": {
+				"attachment": [
+					{ "name": "gold_flask/star" }
+				]
+			}
+		},
+		"bones": {
+			"gold_flask": {
+				"rotate": [
+					{},
+					{ "time": 0.3333, "value": -20 },
+					{ "time": 1, "value": 20 },
+					{ "time": 1.3333 }
+				],
+				"translate": [
+					{
+						"curve": [ 0.222, 0, 0.444, 0, 0.222, 0, 0.444, -3.61 ]
+					},
+					{
+						"time": 0.6667,
+						"y": -3.61,
+						"curve": [ 0.889, 0, 1.111, 0, 0.889, -3.61, 1.111, 0 ]
+					},
+					{ "time": 1.3333 }
+				],
+				"scale": [
+					{
+						"curve": [ 0.222, 1, 0.444, 0.9, 0.222, 1, 0.444, 0.9 ]
+					},
+					{
+						"time": 0.6667,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.889, 0.9, 1.111, 1, 0.889, 0.9, 1.111, 1 ]
+					},
+					{ "time": 1.3333 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"gold_flask/gold": {
+					"gold_flask/gold": {
+						"deform": [
+							{},
+							{
+								"time": 0.3333,
+								"offset": 2,
+								"vertices": [ -1.12563, -3.40505, -1.12495, 1.31865, -0.76546, 5.20492 ]
+							},
+							{ "time": 0.6667 },
+							{
+								"time": 1,
+								"offset": 2,
+								"vertices": [ 0.63608, 5.73589, 0.94529, 1.26892, 1.07349, -2.80965 ]
+							},
+							{ "time": 1.3333 }
+						]
+					}
+				}
+			}
+		}
+	},
+	"magnet": {
+		"slots": {
+			"magnet/magnet_1": {
+				"attachment": [
+					{ "name": "magnet/magnet_1" },
+					{ "time": 0.1, "name": "magnet/magnet_2" },
+					{ "time": 0.2, "name": "magnet/magnet_3" },
+					{ "time": 0.3, "name": "magnet/magnet_4" },
+					{ "time": 0.4, "name": "magnet/magnet_5" },
+					{ "time": 0.5, "name": "magnet/magnet_6" },
+					{ "time": 0.6, "name": "magnet/magnet_7" },
+					{ "time": 0.7, "name": "magnet/magnet_8" },
+					{ "time": 0.8, "name": "magnet/magnet_1" }
+				]
+			}
+		},
+		"bones": {
+			"magnet": {
+				"translate": [
+					{
+						"curve": [ 0.133, 0, 0.267, 0, 0.133, 0, 0.267, -4.46 ]
+					},
+					{
+						"time": 0.4,
+						"y": -4.46,
+						"curve": [ 0.533, 0, 0.667, 0, 0.533, -4.46, 0.667, 0 ]
+					},
+					{ "time": 0.8 }
+				],
+				"scale": [
+					{
+						"curve": [ 0.133, 1, 0.267, 0.9, 0.133, 1, 0.267, 0.9 ]
+					},
+					{
+						"time": 0.4,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.533, 0.9, 0.667, 1, 0.533, 0.9, 0.667, 1 ]
+					},
+					{ "time": 0.8 }
+				]
+			}
+		}
+	},
+	"ring": {
+		"slots": {
+			"ring/ring": {
+				"attachment": [
+					{ "name": "ring/ring" }
+				]
+			},
+			"ring/wing": {
+				"attachment": [
+					{ "name": "ring/wing" }
+				]
+			},
+			"ring/wing2": {
+				"attachment": [
+					{ "name": "ring/wing" }
+				]
+			}
+		},
+		"bones": {
+			"ring": {
+				"translate": [
+					{
+						"curve": [ 0.167, 0, 0.333, 0, 0.167, 0, 0.333, -5.03 ]
+					},
+					{
+						"time": 0.5,
+						"y": -5.03,
+						"curve": [ 0.667, 0, 0.833, 0, 0.667, -5.03, 0.833, 0 ]
+					},
+					{ "time": 1 }
+				],
+				"scale": [
+					{
+						"curve": [ 0.167, 1, 0.333, 0.9, 0.167, 1, 0.333, 0.9 ]
+					},
+					{
+						"time": 0.5,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.667, 0.9, 0.833, 1, 0.667, 0.9, 0.833, 1 ]
+					},
+					{ "time": 1 }
+				]
+			},
+			"wing_2": {
+				"rotate": [
+					{
+						"curve": [ 0.167, 0, 0.333, -40.6 ]
+					},
+					{
+						"time": 0.5,
+						"value": -40.6,
+						"curve": [ 0.667, -40.6, 0.833, 0 ]
+					},
+					{ "time": 1 }
+				]
+			},
+			"wing_3": {
+				"rotate": [
+					{
+						"curve": [ 0.167, 0, 0.333, -41.45 ]
+					},
+					{
+						"time": 0.5,
+						"value": -41.45,
+						"curve": [ 0.667, -41.45, 0.833, 0 ]
+					},
+					{ "time": 1 }
+				]
+			}
+		}
+	}
+}
+}

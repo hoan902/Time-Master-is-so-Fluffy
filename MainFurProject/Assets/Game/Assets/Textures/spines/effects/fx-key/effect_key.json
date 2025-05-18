@@ -1,0 +1,91 @@
+{
+"skeleton": {
+	"hash": "Wpt5csXse/s",
+	"spine": "4.1.08",
+	"x": -109.15,
+	"y": -126.04,
+	"width": 241,
+	"height": 244,
+	"images": "./images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "light", "parent": "root" },
+	{ "name": "bone", "parent": "root" }
+],
+"slots": [
+	{ "name": "1", "bone": "bone", "color": "ffffff00", "attachment": "3" },
+	{ "name": "2", "bone": "bone", "color": "ffffff00" },
+	{ "name": "3", "bone": "bone", "color": "ffffff00" },
+	{ "name": "4", "bone": "bone", "color": "ffffff00" },
+	{ "name": "light", "bone": "light", "attachment": "light" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"1": {
+				"1": { "x": -0.34, "y": 0.09, "width": 133, "height": 141 },
+				"2": { "x": 10.66, "y": 0.09, "width": 204, "height": 209 },
+				"3": { "x": 11.35, "y": -4.04, "width": 241, "height": 244 },
+				"4": { "x": -0.34, "y": 0.09, "width": 267, "height": 267 }
+			},
+			"light": {
+				"light": { "x": 0.02, "y": -0.01, "width": 118, "height": 118 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"1": {
+				"rgba": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 0.3667,
+						"color": "ffffffff",
+						"curve": [ 0.442, 1, 0.592, 1, 0.442, 1, 0.592, 1, 0.442, 1, 0.592, 1, 0.442, 1, 0.592, 0 ]
+					},
+					{ "time": 0.6667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1667, "name": "1" },
+					{ "time": 0.2333, "name": "2" },
+					{ "time": 0.3, "name": "3" },
+					{ "time": 0.3667, "name": "4" }
+				]
+			},
+			"light": {
+				"rgba": [
+					{
+						"time": 0.1667,
+						"color": "ffffffff",
+						"curve": [ 0.233, 1, 0.367, 1, 0.233, 1, 0.367, 1, 0.233, 1, 0.367, 1, 0.233, 1, 0.367, 0 ]
+					},
+					{ "time": 0.4333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"scale": [
+					{ "x": 0.5, "y": 0.5 }
+				]
+			},
+			"light": {
+				"scale": [
+					{
+						"x": 0.1,
+						"y": 0.1,
+						"curve": [ 0.108, 0.1, 0.325, 1, 0.108, 0.1, 0.325, 1 ]
+					},
+					{ "time": 0.4333 }
+				]
+			}
+		}
+	}
+}
+}

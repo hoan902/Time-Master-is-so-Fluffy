@@ -1,0 +1,126 @@
+{
+"skeleton": {
+	"hash": "I9U/mmkwzrE",
+	"spine": "4.1.17",
+	"x": -67.65,
+	"y": 0.04,
+	"width": 135.3,
+	"height": 101.9,
+	"images": "./images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone3", "parent": "root", "y": -31.14, "scaleX": 0.66, "scaleY": 0.66 },
+	{ "name": "bone", "parent": "bone3", "y": 50 },
+	{ "name": "bone2", "parent": "bone3", "x": -0.27, "y": 22.81 },
+	{ "name": "spring/base", "parent": "bone2", "y": 41.29 },
+	{ "name": "spring/head", "parent": "bone2", "x": 4.86, "y": 162.4 }
+],
+"slots": [
+	{ "name": "spring/1", "bone": "bone3", "attachment": "1" },
+	{ "name": "spring/base", "bone": "spring/base", "attachment": "base" },
+	{ "name": "spring/head", "bone": "spring/head", "attachment": "head" }
+],
+"skins": [
+	{
+		"name": "autumn",
+		"attachments": {
+			"spring/1": {
+				"1": { "name": "autumn/1", "type": "linkedmesh", "skin": "spirng", "parent": "1", "width": 137, "height": 136 }
+			},
+			"spring/base": {
+				"base": { "name": "autumn/base", "x": 0.27, "y": 0.18, "width": 185, "height": 35 }
+			},
+			"spring/head": {
+				"head": { "name": "autumn/head", "x": -4.59, "y": -3.33, "width": 217, "height": 36 }
+			}
+		}
+	},
+	{
+		"name": "spirng",
+		"attachments": {
+			"spring/1": {
+				"1": {
+					"name": "spring/1",
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 2, 4, 71.97, -10.36, 0.89641, 5, 67.12, -131.47, 0.10359, 2, 4, -72.03, -10.36, 0.92159, 5, -76.88, -131.47, 0.07841, 2, 4, -72.03, 124.64, 0.15729, 5, -76.88, 3.53, 0.84271, 2, 4, 71.97, 124.64, 0.08626, 5, 67.12, 3.53, 0.91374 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 144,
+					"height": 135
+				}
+			},
+			"spring/base": {
+				"base": { "name": "spring/base", "x": -0.32, "y": -2.46, "width": 165, "height": 29 }
+			},
+			"spring/head": {
+				"head": { "name": "spring/head", "x": -4.59, "y": -2.5, "width": 216, "height": 51 }
+			}
+		}
+	},
+	{
+		"name": "summer",
+		"attachments": {
+			"spring/1": {
+				"1": { "name": "summer/1", "type": "linkedmesh", "skin": "spirng", "parent": "1", "width": 140, "height": 135 }
+			},
+			"spring/base": {
+				"base": { "name": "summer/base", "x": 0.27, "y": -2.02, "width": 191, "height": 31 }
+			},
+			"spring/head": {
+				"head": { "name": "summer/head", "x": -4.59, "y": -2.92, "width": 217, "height": 32 }
+			}
+		}
+	},
+	{
+		"name": "winter",
+		"attachments": {
+			"spring/1": {
+				"1": { "name": "winter/1", "type": "linkedmesh", "skin": "spirng", "parent": "1", "width": 138, "height": 135 }
+			},
+			"spring/base": {
+				"base": { "name": "winter/base", "x": -0.32, "y": 0.64, "width": 160, "height": 35 }
+			},
+			"spring/head": {
+				"head": { "name": "winter/head", "x": -4.59, "y": -2.08, "width": 205, "height": 37 }
+			}
+		}
+	}
+],
+"animations": {
+	"idle": {
+		"bones": {
+			"spring/base": {
+				"rotate": [
+					{}
+				]
+			}
+		}
+	},
+	"touch": {
+		"bones": {
+			"spring/head": {
+				"translate": [
+					{
+						"curve": [ 0.053, 0, 0.05, 0, 0.053, -0.07, 0.05, -10.72 ]
+					},
+					{
+						"time": 0.0667,
+						"y": -10.72,
+						"curve": [ 0.092, 0, 0.091, 0, 0.092, -10.72, 0.091, 99.41 ]
+					},
+					{
+						"time": 0.1667,
+						"y": 99.41,
+						"curve": [ 0.208, 0, 0.292, 0, 0.208, 99.41, 0.292, 0 ]
+					},
+					{ "time": 0.3333 }
+				]
+			}
+		}
+	}
+}
+}

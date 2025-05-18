@@ -1,0 +1,6 @@
+bubble_talk.png
+size:331,277
+filter:Linear,Linear
+pma:true
+bubble_talk
+bounds:2,2,327,273

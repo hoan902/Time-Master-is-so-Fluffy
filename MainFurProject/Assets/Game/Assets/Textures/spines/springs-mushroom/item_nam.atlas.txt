@@ -1,0 +1,16 @@
+item_nam.png
+size:160,424
+filter:Linear,Linear
+pma:true
+nam_1
+bounds:97,101,61,180
+offsets:0,0,79,180
+nam_1_2
+bounds:2,283,139,143
+offsets:2,4,142,148
+rotate:90
+nam_2
+bounds:2,100,93,181
+nam_2_1
+bounds:2,2,98,96
+offsets:1,2,100,99

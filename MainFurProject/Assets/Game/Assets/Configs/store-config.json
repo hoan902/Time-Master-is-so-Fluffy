@@ -1,0 +1,397 @@
+{
+  "coin_skins": [
+    {
+      "skin": 1,
+      "price": 1000
+    },
+    {
+      "skin": 8,
+      "price": 1500
+    },
+    {
+      "skin": 33,
+      "price": 25000
+    },
+    {
+      "skin": 34,
+      "price": 25000
+    },
+    {
+      "skin": 10,
+      "price": 2000
+    },
+    {
+      "skin": 21,
+      "price": 3000
+    },
+    {
+      "skin": 22,
+      "price": 3000
+    },
+    {
+      "skin": 91,
+      "price": 15000
+    },
+    {
+      "skin": 92,
+      "price": 15000
+    },
+    {
+      "skin": 47,
+      "price": 1500
+    },
+    {
+      "skin": 35,
+      "price": 10000
+    },
+    {
+      "skin": 36,
+      "price": 10000
+    },
+    {
+      "skin": 2,
+      "price": 1000
+    },
+    {
+      "skin": 74,
+      "price": 18000
+    },
+    {
+      "skin": 3,
+      "price": 1000
+    },
+    {
+      "skin": 51,
+      "price": 2000
+    },
+    {
+      "skin": 19,
+      "price": 10000
+    },
+    {
+      "skin": 20,
+      "price": 10000
+    },
+    {
+      "skin": 85,
+      "price": 12000
+    },
+    {
+      "skin": 86,
+      "price": 12000
+    },
+    {
+      "skin": 31,
+      "price": 2500
+    },
+    {
+      "skin": 32,
+      "price": 2500
+    },
+    {
+      "skin": 23,
+      "price": 3000
+    },
+    {
+      "skin": 24,
+      "price": 4500
+    },
+    {
+      "skin": 83,
+      "price": 8000
+    },
+    {
+      "skin": 84,
+      "price": 8000
+    },
+    {
+      "skin": 30,
+      "price": 18000
+    },
+    {
+      "skin": 65,
+      "price": 2500
+    },
+    {
+      "skin": 66,
+      "price": 2500
+    },
+    {
+      "skin": 11,
+      "price": 5000
+    },
+    {
+      "skin": 12,
+      "price": 5000
+    },
+    {
+      "skin": 56,
+      "price": 18000
+    },
+    {
+      "skin": 50,
+      "price": 18000
+    },
+    {
+      "skin": 45,
+      "price": 3000
+    },
+    {
+      "skin": 46,
+      "price": 3000
+    },
+    {
+      "skin": 61,
+      "price": 4500
+    },
+    {
+      "skin": 60,
+      "price": 3000
+    },
+    {
+      "skin": 42,
+      "price": 25000
+    },
+    {
+      "skin": 43,
+      "price": 20000
+    },
+    {
+      "skin": 44,
+      "price": 20000
+    },
+    {
+      "skin": 71,
+      "price": 5000
+    },
+    {
+      "skin": 87,
+      "price": 15000
+    },
+    {
+      "skin": 88,
+      "price": 15000
+    },
+    {
+      "skin": 4,
+      "price": 15000
+    },
+    {
+      "skin": 5,
+      "price": 20000
+    },
+    {
+      "skin": 28,
+      "price": 20000
+    },
+    {
+      "skin": 29,
+      "price": 18000
+    },
+    {
+      "skin": 25,
+      "price": 8000
+    },
+    {
+      "skin": 26,
+      "price": 8000
+    },
+    {
+      "skin": 97,
+      "price": 12000
+    },
+    {
+      "skin": 98,
+      "price": 12000
+    },
+    {
+      "skin": 102,
+      "price": 8000
+    },
+    {
+      "skin": 81,
+      "price": 18000
+    },
+    {
+      "skin": 82,
+      "price": 20000
+    },
+    {
+      "skin": 7,
+      "price": 2000
+    },
+    {
+      "skin": 76,
+      "price": 3000
+    },
+    {
+      "skin": 80,
+      "price": 30000
+    },
+    {
+      "skin": 79,
+      "price": 30000
+    },
+    {
+      "skin": 16,
+      "price": 5000
+    },
+    {
+      "skin": 6,
+      "price": 2000
+    },
+    {
+      "skin": 106,
+      "price": 3000
+    }
+  ],
+  "rescue_skins": [
+    {
+      "skin": 142,
+      "level": 3
+    },
+    {
+      "skin": 149,
+      "level": 7
+    },
+    {
+      "skin": 105,
+      "level": 9
+    },
+    {
+      "skin": 108,
+      "level": 12
+    },
+    {
+      "skin": 62,
+      "level": 14
+    },
+    {
+      "skin": 15,
+      "level": 17
+    },
+    {
+      "skin": 49,
+      "level": 19
+    },
+    {
+      "skin": 54,
+      "level": 21
+    },
+    {
+      "skin": 125,
+      "level": 27
+    },
+    {
+      "skin": 141,
+      "level": 32
+    },
+    {
+      "skin": 147,
+      "level": 36
+    },
+    {
+      "skin": 148,
+      "level": 39
+    },
+    {
+      "skin": 75,
+      "level": 42
+    },
+    {
+      "skin": 150,
+      "level": 45
+    },
+    {
+      "skin": 127,
+      "level": 105
+    },
+    {
+      "skin": 131,
+      "level": 126
+    }
+  ],
+  "premium_skins": [
+    {
+      "skin": 151
+    },
+    {
+      "skin": 152
+    },
+    {
+      "skin": 52
+    },
+    {
+      "skin": 57
+    },
+    {
+      "skin": 9
+    },
+    {
+      "skin": 39
+    },
+    {
+      "skin": 72
+    },
+    {
+      "skin": 73
+    },
+    {
+      "skin": 99
+    },
+    {
+      "skin": 59
+    },
+    {
+      "skin": 108
+    }
+  ],
+  "treasure_skins": [
+    {
+      "skin": 89
+    },
+    {
+      "skin": 129
+    },
+    {
+      "skin": 118
+    },
+    {
+      "skin": 90
+    },
+    {
+      "skin": 134
+    }
+  ],
+  "unique_skins": [
+    {
+      "skin": 55
+    },
+    {
+      "skin": 63
+    },
+    {
+      "skin": 101
+    },
+    {
+      "skin": 104
+    }
+  ],
+  "package": [
+    {
+      "id": 1,
+      "name": "Become A Vip",
+      "description": "Vip Premium"
+    },
+    {
+      "id": 2,
+      "name": "Remove Ads 1",
+      "description": "Remove Ads + 700 Coin"
+    },
+    {
+      "id": 3,
+      "name": "Remove Ads 2",
+      "description": "Remove Ads"
+    }
+  ]
+}

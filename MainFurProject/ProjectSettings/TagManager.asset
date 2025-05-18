@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - coin
+  - door
+  - object-box
+  - star
+  - ground
+  - wall
+  - monster-move-ground
+  - switch
+  - magnet
+  - cloud
+  - monster
+  - weapon
+  - one-way
+  - elevator
+  - flax
+  - camera-follow
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - player
+  - ground
+  - ground-one-way
+  - box
+  - trigger
+  - physic
+  - physic-special
+  - monster
+  - physic-special-1
+  - magnet
+  - coin
+  - teleport
+  - enemy-bullet
+  - boss
+  - monster-2
+  - monster-3
+  - physics-car
+  - laser-door
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

@@ -1,0 +1,11 @@
+Dark_Scarecrow_creep.png
+size:1722,770
+filter:Linear,Linear
+pma:true
+dfdf
+bounds:2,2,1148,766
+offsets:0,20,1148,786
+sds
+bounds:1152,163,605,568
+offsets:1,0,607,568
+rotate:90

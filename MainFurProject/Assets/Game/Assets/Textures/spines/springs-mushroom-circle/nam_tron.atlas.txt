@@ -1,0 +1,7 @@
+nam_tron.png
+size:205,202
+filter:Linear,Linear
+pma:true
+scale:0.5
+nam_tron
+bounds:2,2,201,198

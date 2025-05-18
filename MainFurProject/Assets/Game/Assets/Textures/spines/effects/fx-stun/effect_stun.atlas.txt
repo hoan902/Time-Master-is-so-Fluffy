@@ -1,0 +1,6 @@
+effect_stun.png
+size:25,25
+filter:Linear,Linear
+pma:true
+star
+bounds:2,2,21,21

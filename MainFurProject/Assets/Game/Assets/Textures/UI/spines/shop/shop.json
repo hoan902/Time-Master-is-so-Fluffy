@@ -1,0 +1,56 @@
+{
+"skeleton": {
+	"hash": "iKMH0cvN3v4",
+	"spine": "4.1.08",
+	"x": -103.92,
+	"y": -3.79,
+	"width": 209.81,
+	"height": 236.85,
+	"images": "./images/",
+	"audio": "D:/Trang/ball_6/UI/shop"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "y": -109.06 },
+	{ "name": "bone2", "parent": "bone", "y": 41.65 },
+	{ "name": "shop", "parent": "bone2", "length": 58.52, "rotation": 90, "y": 72.07 },
+	{ "name": "shop_icon", "parent": "shop", "x": 129.17 }
+],
+"slots": [
+	{ "name": "shop_icon", "bone": "shop_icon", "attachment": "shop_icon" },
+	{ "name": "shop", "bone": "shop", "attachment": "shop" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"shop": {
+				"shop": { "x": 42.4, "y": -0.98, "rotation": -89.53, "width": 209, "height": 100 }
+			},
+			"shop_icon": {
+				"shop_icon": { "x": 24.23, "y": -0.98, "rotation": -90, "width": 205, "height": 150 }
+			}
+		}
+	}
+],
+"animations": {
+	"idle": {
+		"bones": {
+			"shop_icon": {
+				"translate": [
+					{
+						"x": -8.7,
+						"curve": [ 0.083, -8.7, 0.25, 0.92, 0.083, 0, 0.25, 0 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 0.92,
+						"curve": [ 0.417, 0.92, 0.583, -8.7, 0.417, 0, 0.583, 0 ]
+					},
+					{ "time": 0.6667, "x": -8.7 }
+				]
+			}
+		}
+	}
+}
+}

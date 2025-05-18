@@ -1,0 +1,50 @@
+{
+"skeleton": { "hash": "r/+90gP3gTE", "spine": "4.1.17", "images": "./images/", "audio": "E:/a_MAto/skeleton zero" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "fx_dash/1", "parent": "root", "rotation": -0.29, "x": -60.56, "y": 38.03 }
+],
+"slots": [
+	{ "name": "fx_dash/1", "bone": "fx_dash/1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"fx_dash/1": {
+				"fx_dash/fx_dash1_1": { "width": 339, "height": 101 },
+				"fx_dash/fx_dash1_2": { "width": 339, "height": 101 },
+				"fx_dash/fx_dash1_3": { "width": 339, "height": 101 },
+				"fx_dash/fx_dash1_4": { "width": 339, "height": 101 },
+				"fx_dash/fx_dash1_5": { "width": 339, "height": 101 }
+			}
+		}
+	}
+],
+"events": {
+	"attack": {}
+},
+"animations": {
+	"dash1": {
+		"slots": {
+			"fx_dash/1": {
+				"rgba": [
+					{
+						"time": 0.2333,
+						"color": "ffffffff",
+						"curve": [ 0.234, 1, 0.323, 1, 0.234, 1, 0.323, 1, 0.234, 1, 0.323, 1, 0.234, 0.45, 0.323, 0 ]
+					},
+					{ "time": 0.3667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "fx_dash/fx_dash1_1" },
+					{ "time": 0.0333, "name": "fx_dash/fx_dash1_2" },
+					{ "time": 0.1, "name": "fx_dash/fx_dash1_3" },
+					{ "time": 0.1667, "name": "fx_dash/fx_dash1_4" },
+					{ "time": 0.2333, "name": "fx_dash/fx_dash1_5" }
+				]
+			}
+		}
+	}
+}
+}

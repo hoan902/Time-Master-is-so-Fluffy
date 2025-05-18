@@ -1,0 +1,12 @@
+event.png
+size:212,268
+filter:Linear,Linear
+pma:true
+event_icon
+bounds:2,100,144,166
+shop
+bounds:2,2,205,96
+offsets:2,2,209,100
+star
+bounds:148,197,69,62
+rotate:90

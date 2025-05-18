@@ -1,0 +1,7 @@
+ball5-danger.png
+size:85,70
+filter:Linear,Linear
+pma:true
+danger
+bounds:2,2,81,66
+offsets:1,1,83,68

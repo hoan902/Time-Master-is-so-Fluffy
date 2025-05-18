@@ -1,0 +1,9 @@
+Hand_Turtorial.png
+size:359,163
+filter:Linear,Linear
+pma:true
+effect
+bounds:278,82,79,79
+hand
+bounds:2,2,159,274
+rotate:90

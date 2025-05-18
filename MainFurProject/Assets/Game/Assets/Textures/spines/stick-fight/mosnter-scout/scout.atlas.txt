@@ -1,0 +1,17 @@
+scout.png
+size:408,282
+filter:Linear,Linear
+pma:true
+blink_1
+bounds:256,3,66,81
+offsets:1,1,68,83
+blink_2
+bounds:365,46,31,38
+offsets:1,1,33,40
+m_den
+bounds:324,2,39,82
+m_trang
+bounds:2,28,252,252
+offsets:1,1,254,254
+m_xanh
+bounds:256,86,150,194

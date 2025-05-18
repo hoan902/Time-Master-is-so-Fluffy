@@ -1,0 +1,13 @@
+effect_coin.png
+size:263,162
+filter:Linear,Linear
+pma:true
+1
+bounds:162,61,99,99
+offsets:3,3,105,105
+2
+bounds:2,2,158,158
+offsets:6,6,170,170
+start
+bounds:162,44,15,15
+offsets:2,1,18,17

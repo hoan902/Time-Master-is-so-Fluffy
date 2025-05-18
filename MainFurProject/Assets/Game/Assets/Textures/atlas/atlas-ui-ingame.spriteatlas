@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: atlas-ui-ingame
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 50
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 92174517a3350044b9c2705761f4d6cb, type: 3}
+    - {fileID: 2800000, guid: b6a4c09f8bea3fd4b863315875334bd7, type: 3}
+    - {fileID: 2800000, guid: aefab833cc71f08448514d620940149e, type: 3}
+    - {fileID: 2800000, guid: 18c47b93891facc4e833c2d72b654693, type: 3}
+    - {fileID: 2800000, guid: d8878433f14fe0e4c8517f42b76e0a9c, type: 3}
+    - {fileID: 2800000, guid: 88e1828db8ecd7a4a83a8cc8bae394c9, type: 3}
+    - {fileID: 2800000, guid: 606820c856e480d4b888618b3fee891c, type: 3}
+    - {fileID: 2800000, guid: 3ee74e0af6213f2408407f5f769088d8, type: 3}
+    - {fileID: 2800000, guid: f1035b315710d92419f41def53dc01b9, type: 3}
+    - {fileID: 2800000, guid: d09b5780df6851646a6a9f719e6abce3, type: 3}
+    - {fileID: 2800000, guid: d996a4d6fd0f5904aa7c4756b5049cae, type: 3}
+    - {fileID: 2800000, guid: 76b563589877e0448a53882a3f257414, type: 3}
+    - {fileID: 2800000, guid: 604bdbfea2285c24f8b8d5c80e6d8197, type: 3}
+    - {fileID: 2800000, guid: 2e866ae186178e540ad46a9fb1be73df, type: 3}
+    - {fileID: 2800000, guid: 98a97fb3f810a5b4ea02ddfddf97d5ed, type: 3}
+    - {fileID: 2800000, guid: 8a372f5423199f94294825f43842a959, type: 3}
+    - {fileID: 2800000, guid: bdeabbd9d754ec34a90a6cc5b1c60156, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: d09b5780df6851646a6a9f719e6abce3, type: 3}
+  - {fileID: 21300000, guid: f1035b315710d92419f41def53dc01b9, type: 3}
+  - {fileID: 21300000, guid: 2e866ae186178e540ad46a9fb1be73df, type: 3}
+  - {fileID: 21300000, guid: d8878433f14fe0e4c8517f42b76e0a9c, type: 3}
+  - {fileID: 21300000, guid: aefab833cc71f08448514d620940149e, type: 3}
+  - {fileID: 21300000, guid: 18c47b93891facc4e833c2d72b654693, type: 3}
+  - {fileID: 21300000, guid: 98a97fb3f810a5b4ea02ddfddf97d5ed, type: 3}
+  - {fileID: 21300000, guid: 8a372f5423199f94294825f43842a959, type: 3}
+  - {fileID: 21300000, guid: d996a4d6fd0f5904aa7c4756b5049cae, type: 3}
+  - {fileID: 21300000, guid: 92174517a3350044b9c2705761f4d6cb, type: 3}
+  - {fileID: 21300000, guid: 76b563589877e0448a53882a3f257414, type: 3}
+  - {fileID: 21300000, guid: 606820c856e480d4b888618b3fee891c, type: 3}
+  - {fileID: 21300000, guid: bdeabbd9d754ec34a90a6cc5b1c60156, type: 3}
+  - {fileID: 21300000, guid: 3ee74e0af6213f2408407f5f769088d8, type: 3}
+  - {fileID: 21300000, guid: 88e1828db8ecd7a4a83a8cc8bae394c9, type: 3}
+  - {fileID: 21300000, guid: 604bdbfea2285c24f8b8d5c80e6d8197, type: 3}
+  - {fileID: 21300000, guid: b6a4c09f8bea3fd4b863315875334bd7, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - bt_left
+  - bt_pause
+  - process_box2
+  - icon_blood
+  - star1
+  - box_avatar
+  - box_coin 1
+  - light_1
+  - GrownUp
+  - coin
+  - frame_loading
+  - icon_heart
+  - light_off_1
+  - item_token 1
+  - box_live
+  - loading_star
+  - star0
+  m_RenderDataMap: {}
+  m_Tag: atlas-ui-ingame
+  m_IsVariant: 0

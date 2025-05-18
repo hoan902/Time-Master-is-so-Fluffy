@@ -1,0 +1,11 @@
+effect_star.png
+size:147,114
+filter:Linear,Linear
+pma:true
+light
+bounds:2,2,110,110
+offsets:4,4,118,118
+star
+bounds:114,79,33,31
+offsets:1,1,35,33
+rotate:90

@@ -1,0 +1,17 @@
+Bone_Fly.png
+size:1959,1525
+filter:Linear,Linear
+pma:true
+1
+bounds:2,2,1045,753
+offsets:0,0,1046,753
+2
+bounds:1049,316,908,439
+3
+bounds:1273,1311,446,212
+offsets:2,1,449,215
+3f
+bounds:1049,135,446,179
+offsets:2,1,449,215
+4
+bounds:2,757,1269,766

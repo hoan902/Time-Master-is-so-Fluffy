@@ -1,0 +1,112 @@
+{
+"skeleton": {
+	"hash": "QJbR7fd6Cqk",
+	"spine": "4.1.17",
+	"x": -64.76,
+	"y": 0.33,
+	"width": 130,
+	"height": 50.53,
+	"images": "./images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "y": -24.56 },
+	{ "name": "1", "parent": "bone", "length": 31.1, "rotation": 89.58, "x": -0.55, "y": 25.87 }
+],
+"slots": [
+	{ "name": "1", "bone": "1", "attachment": "1" },
+	{ "name": "12a", "bone": "bone", "attachment": "12a" }
+],
+"skins": [
+	{
+		"name": "autumn",
+		"attachments": {
+			"1": {
+				"1": { "name": "autumn/1", "x": 29.74, "y": -0.04, "rotation": -89.58, "width": 97, "height": 38 }
+			},
+			"12a": {
+				"12a": { "name": "autumn/12a", "x": 0.24, "y": 39.81, "width": 130, "height": 32 }
+			}
+		}
+	},
+	{
+		"name": "spring",
+		"attachments": {
+			"1": {
+				"1": { "name": "spring/1", "x": 26.55, "y": -0.07, "rotation": -89.58, "width": 107, "height": 47 }
+			},
+			"12a": {
+				"12a": { "name": "spring/12a", "x": 0.24, "y": 32.79, "width": 122, "height": 21 }
+			}
+		}
+	},
+	{
+		"name": "summer",
+		"attachments": {
+			"1": {
+				"1": { "name": "summer/1", "x": 26.55, "y": -0.07, "rotation": -89.58, "width": 98, "height": 46 }
+			},
+			"12a": {
+				"12a": { "name": "summer/12a", "x": 0.24, "y": 34.39, "width": 130, "height": 19 }
+			}
+		}
+	},
+	{
+		"name": "winter",
+		"attachments": {
+			"1": {
+				"1": { "name": "winter/1", "x": 29.74, "y": -0.04, "rotation": -89.58, "width": 96, "height": 41 }
+			},
+			"12a": {
+				"12a": { "name": "winter/12a", "x": 0.24, "y": 41.41, "width": 141, "height": 34 }
+			}
+		}
+	}
+],
+"animations": {
+	"down": {
+		"bones": {
+			"1": {
+				"scale": [
+					{
+						"curve": [ 0.167, 1, 0.5, 0.5, 0.167, 1, 0.5, 1 ]
+					},
+					{ "time": 0.6667, "x": 0.5 }
+				]
+			}
+		}
+	},
+	"idle": {
+		"slots": {
+			"12a": {
+				"attachment": [
+					{ "name": "12a" }
+				]
+			}
+		}
+	},
+	"off": {
+		"bones": {
+			"1": {
+				"scale": [
+					{ "x": 0.5 }
+				]
+			}
+		}
+	},
+	"up": {
+		"bones": {
+			"1": {
+				"scale": [
+					{
+						"x": 0.5,
+						"curve": [ 0.167, 0.5, 0.5, 1, 0.167, 1, 0.5, 1 ]
+					},
+					{ "time": 0.6667 }
+				]
+			}
+		}
+	}
+}
+}

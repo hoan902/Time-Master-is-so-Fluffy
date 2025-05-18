@@ -1,0 +1,161 @@
+{
+"skeleton": {
+	"hash": "SolMdO5L7To",
+	"spine": "4.1.17",
+	"x": -103.92,
+	"y": -3.79,
+	"width": 209.81,
+	"height": 237.08,
+	"images": "./images/",
+	"audio": "D:/Trang/ball_6/UI/shop"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "y": -109.06 },
+	{ "name": "bone2", "parent": "bone", "y": 41.65 },
+	{ "name": "shop", "parent": "bone2", "length": 58.52, "rotation": 90, "y": 72.07 },
+	{ "name": "shop_icon", "parent": "shop", "x": 129.17 },
+	{ "name": "crown", "parent": "shop_icon", "length": 36.87, "rotation": 0.64, "x": 32.16, "y": -2.97 },
+	{ "name": "bling", "parent": "crown", "rotation": -90.64, "x": 18.75, "y": -27.57 },
+	{ "name": "star", "parent": "bling", "x": -0.05, "y": -0.2 },
+	{ "name": "base0", "parent": "shop_icon", "x": 12.51 }
+],
+"slots": [
+	{ "name": "base", "bone": "shop_icon", "attachment": "base" },
+	{ "name": "base1", "bone": "base0", "attachment": "base1" },
+	{ "name": "crown", "bone": "crown", "attachment": "crown" },
+	{ "name": "base2", "bone": "base0", "attachment": "base2" },
+	{ "name": "star", "bone": "star", "attachment": "star" },
+	{ "name": "shop_icon", "bone": "shop_icon" },
+	{ "name": "shop", "bone": "shop", "attachment": "shop" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"base": {
+				"base": { "x": -13.07, "rotation": -90, "width": 190, "height": 99 }
+			},
+			"base1": {
+				"base1": { "x": -3.8, "rotation": -90, "width": 200, "height": 70 }
+			},
+			"base2": {
+				"base2": { "x": 1.08, "rotation": -90, "width": 134, "height": 38 }
+			},
+			"crown": {
+				"crown": { "x": 25.32, "y": 2.19, "rotation": -90.64, "width": 123, "height": 84 }
+			},
+			"shop": {
+				"shop": { "x": 42.4, "y": -0.98, "rotation": -89.53, "width": 209, "height": 100 }
+			},
+			"shop_icon": {
+				"shop_icon": { "x": 24.23, "y": -0.98, "rotation": -90, "width": 205, "height": 150 }
+			},
+			"star": {
+				"star": { "x": -0.85, "y": 0.06, "width": 20, "height": 20 }
+			}
+		}
+	}
+],
+"animations": {
+	"idle": {
+		"bones": {
+			"shop_icon": {
+				"translate": [
+					{
+						"x": -8.7,
+						"curve": [ 0.125, -8.7, 0.375, -5.21, 0.125, 0, 0.375, 0 ]
+					},
+					{
+						"time": 0.5,
+						"x": -5.21,
+						"curve": [ 0.625, -5.21, 0.833, -8.7, 0.625, 0, 0.833, 0 ]
+					},
+					{
+						"time": 1,
+						"x": -8.7,
+						"curve": [ 1.125, -8.7, 1.375, -5.21, 1.125, 0, 1.375, 0 ]
+					},
+					{
+						"time": 1.5,
+						"x": -5.21,
+						"curve": [ 1.625, -5.21, 1.875, -8.7, 1.625, 0, 1.875, 0 ]
+					},
+					{ "time": 2, "x": -8.7 }
+				]
+			},
+			"base0": {
+				"scale": [
+					{
+						"curve": [ 0.167, 1, 0.333, 1.03, 0.167, 1, 0.333, 0.97 ]
+					},
+					{
+						"time": 0.5,
+						"x": 1.03,
+						"y": 0.97,
+						"curve": [ 0.667, 1.03, 0.833, 1, 0.667, 0.97, 0.833, 1 ]
+					},
+					{
+						"time": 1,
+						"curve": [ 1.167, 1, 1.333, 1.03, 1.167, 1, 1.333, 0.97 ]
+					},
+					{
+						"time": 1.5,
+						"x": 1.03,
+						"y": 0.97,
+						"curve": [ 1.667, 1.03, 1.833, 1, 1.667, 0.97, 1.833, 1 ]
+					},
+					{ "time": 2 }
+				]
+			},
+			"crown": {
+				"rotate": [
+					{
+						"curve": [ 0.167, 0, 0.333, -4.62 ]
+					},
+					{
+						"time": 0.5,
+						"value": -4.62,
+						"curve": [ 0.667, -4.62, 0.833, 0 ]
+					},
+					{
+						"time": 1,
+						"curve": [ 1.167, 0, 1.333, -4.62 ]
+					},
+					{
+						"time": 1.5,
+						"value": -4.62,
+						"curve": [ 1.667, -4.62, 1.833, 0 ]
+					},
+					{ "time": 2 }
+				]
+			},
+			"star": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 1, "value": -43.41 }
+				],
+				"translate": [
+					{ "x": 0.34, "y": -9.34, "curve": "stepped" },
+					{ "time": 1, "x": -61.44, "y": -9.42 }
+				],
+				"scale": [
+					{ "x": 0.01, "y": 0 },
+					{ "time": 0.3333, "curve": "stepped" },
+					{ "time": 0.5 },
+					{ "time": 1, "x": 0.01, "y": 0 },
+					{ "time": 1.3333, "curve": "stepped" },
+					{ "time": 1.5 },
+					{ "time": 2, "x": 0.01, "y": 0 }
+				]
+			},
+			"bling": {
+				"scale": [
+					{ "x": 0.5, "y": 0.5, "curve": "stepped" },
+					{ "time": 1 }
+				]
+			}
+		}
+	}
+}
+}

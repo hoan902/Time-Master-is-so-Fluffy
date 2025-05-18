@@ -1,0 +1,984 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cda07ef88776f5646b7f32f7ca699125, type: 3}
+  m_Name: game-config
+  m_EditorClassIdentifier: 
+  worlds:
+  - worldName: 0. Beastly Abyss (0-9)
+    background: {fileID: 21300000, guid: b8fb64c11e2d25746a1d47d222c18e3b, type: 3}
+    musics:
+      ingameMusic: {fileID: 8300000, guid: 881e16266cd43e2408acd64cea44d3de, type: 3}
+      homeMusic: {fileID: 8300000, guid: c74798c6e7db1d348a7759de6fa5fab1, type: 3}
+      bossFightMusic: {fileID: 8300000, guid: f9b3a25c70ba7f34abaa6902b2600c4f, type: 3}
+    levels:
+    - levelName: Level 0
+      levelPath: 0
+    - levelName: Level 1
+      levelPath: 1
+    - levelName: Level 2
+      levelPath: 2
+    - levelName: Level 3
+      levelPath: 3
+    - levelName: Level 4
+      levelPath: 4
+    - levelName: Level 5
+      levelPath: 5
+    - levelName: Level 6
+      levelPath: 6
+    - levelName: Level 7
+      levelPath: 7
+    - levelName: Level 8
+      levelPath: 8
+    - levelName: Level Boss Dark Scarecrow
+      levelPath: 9_bossDarkScarecrow
+  - worldName: 1. Molten Abyss (10 - 24)
+    background: {fileID: 21300000, guid: b8fb64c11e2d25746a1d47d222c18e3b, type: 3}
+    musics:
+      ingameMusic: {fileID: 8300000, guid: 69e064facc1a1424cb54e1719017506e, type: 3}
+      homeMusic: {fileID: 8300000, guid: c74798c6e7db1d348a7759de6fa5fab1, type: 3}
+      bossFightMusic: {fileID: 8300000, guid: f9b3a25c70ba7f34abaa6902b2600c4f, type: 3}
+    levels:
+    - levelName: Level 10
+      levelPath: 10
+    - levelName: Level 11
+      levelPath: 11
+    - levelName: Level 12
+      levelPath: 12
+    - levelName: Level 13
+      levelPath: 13
+    - levelName: Level 14
+      levelPath: 14
+    - levelName: Level 15
+      levelPath: 15_bossKratos
+    - levelName: Level 16
+      levelPath: 16
+    - levelName: Level 17
+      levelPath: 17
+    - levelName: Level 18
+      levelPath: 18
+    - levelName: Level 19
+      levelPath: 19
+    - levelName: Level 20
+      levelPath: 20
+    - levelName: Level 21
+      levelPath: 21
+    - levelName: Level 22
+      levelPath: 22
+    - levelName: Level 23
+      levelPath: 23
+    - levelName: Level 24 Boss Giant Golem
+      levelPath: 24_bossGiantGolem
+  - worldName: 2. Stone (25 - 39)
+    background: {fileID: 21300000, guid: b8fb64c11e2d25746a1d47d222c18e3b, type: 3}
+    musics:
+      ingameMusic: {fileID: 8300000, guid: 1c7c27e27425aa744ab89c614dd5864b, type: 3}
+      homeMusic: {fileID: 8300000, guid: c74798c6e7db1d348a7759de6fa5fab1, type: 3}
+      bossFightMusic: {fileID: 8300000, guid: f9b3a25c70ba7f34abaa6902b2600c4f, type: 3}
+    levels:
+    - levelName: Level 25
+      levelPath: 25
+    - levelName: Level 26
+      levelPath: 26
+    - levelName: Level 27
+      levelPath: 27
+    - levelName: Level 28
+      levelPath: 28
+    - levelName: Level 29
+      levelPath: 29
+    - levelName: Level 30
+      levelPath: 30
+    - levelName: Level 31
+      levelPath: 31
+    - levelName: Level 32
+      levelPath: 32
+    - levelName: Level 33
+      levelPath: 33
+    - levelName: Level 34
+      levelPath: 34
+    - levelName: Level 35
+      levelPath: 35
+    - levelName: Level 36
+      levelPath: 36
+    - levelName: Level 37
+      levelPath: 37
+    - levelName: Level 38
+      levelPath: 38
+    - levelName: Level 39 Boss
+      levelPath: 39_bossUnderground
+  - worldName: 3. Forest (40-54)
+    background: {fileID: 21300000, guid: b8fb64c11e2d25746a1d47d222c18e3b, type: 3}
+    musics:
+      ingameMusic: {fileID: 8300000, guid: 6449d89473511974c93250f95cf9e7db, type: 3}
+      homeMusic: {fileID: 8300000, guid: c74798c6e7db1d348a7759de6fa5fab1, type: 3}
+      bossFightMusic: {fileID: 8300000, guid: f9b3a25c70ba7f34abaa6902b2600c4f, type: 3}
+    levels:
+    - levelName: Level 40
+      levelPath: 40
+    - levelName: Level 41
+      levelPath: 41
+    - levelName: Level 42
+      levelPath: 42
+    - levelName: Level 43
+      levelPath: 43
+    - levelName: Level 44
+      levelPath: 44
+    - levelName: Level 45
+      levelPath: 45
+    - levelName: Level 46
+      levelPath: 46
+    - levelName: Level 47
+      levelPath: 47
+    - levelName: Level 48
+      levelPath: 48
+    - levelName: Level 49
+      levelPath: 49
+    - levelName: Level 50
+      levelPath: 50
+    - levelName: Level 51
+      levelPath: 51
+    - levelName: Level 52
+      levelPath: 52
+    - levelName: Level 53
+      levelPath: 53
+    - levelName: Level 54
+      levelPath: 54_bossJungleGuardian
+  - worldName: 4. Gold (55 - 69)
+    background: {fileID: 21300000, guid: b8fb64c11e2d25746a1d47d222c18e3b, type: 3}
+    musics:
+      ingameMusic: {fileID: 8300000, guid: 01eba358c7098c94fb9276c696a08883, type: 3}
+      homeMusic: {fileID: 8300000, guid: c74798c6e7db1d348a7759de6fa5fab1, type: 3}
+      bossFightMusic: {fileID: 8300000, guid: f9b3a25c70ba7f34abaa6902b2600c4f, type: 3}
+    levels:
+    - levelName: Level 55
+      levelPath: 55
+    - levelName: Level 56
+      levelPath: 56
+    - levelName: Level 57
+      levelPath: 57
+    - levelName: Level 58
+      levelPath: 58
+    - levelName: Level 59
+      levelPath: 59
+    - levelName: Level 60
+      levelPath: 60
+    - levelName: Level 61
+      levelPath: 61
+    - levelName: Level 62
+      levelPath: 62
+    - levelName: Level 63
+      levelPath: 63
+    - levelName: Level 64
+      levelPath: 64
+    - levelName: Level 65
+      levelPath: 65
+    - levelName: Level 66
+      levelPath: 66
+    - levelName: Level 67
+      levelPath: 67
+    - levelName: Level 68
+      levelPath: 68
+    - levelName: Level 69
+      levelPath: 69_bossGoldhorn
+  - worldName: 5. Underground (70-84)
+    background: {fileID: 21300000, guid: b8fb64c11e2d25746a1d47d222c18e3b, type: 3}
+    musics:
+      ingameMusic: {fileID: 8300000, guid: 881e16266cd43e2408acd64cea44d3de, type: 3}
+      homeMusic: {fileID: 8300000, guid: 9d711910cf4325947b6a039b62910738, type: 3}
+      bossFightMusic: {fileID: 8300000, guid: f9b3a25c70ba7f34abaa6902b2600c4f, type: 3}
+    levels:
+    - levelName: Level 70
+      levelPath: 70
+    - levelName: Level 71
+      levelPath: 71
+    - levelName: Level 72
+      levelPath: 72
+    - levelName: Level 73
+      levelPath: 73
+    - levelName: Level 74
+      levelPath: 74
+    - levelName: Level 75
+      levelPath: 75
+    - levelName: Level 76
+      levelPath: 76
+    - levelName: Level 77
+      levelPath: 77
+    - levelName: Level 78
+      levelPath: 78
+    - levelName: Level 79
+      levelPath: 79
+    - levelName: Level 80
+      levelPath: 80
+    - levelName: Level 81
+      levelPath: 81
+    - levelName: Level 82
+      levelPath: 82
+    - levelName: Level 83
+      levelPath: 83
+    - levelName: Level 84
+      levelPath: 84_bossSoulKeeper
+  - worldName: 6. Castle 2 (85-99)
+    background: {fileID: 21300000, guid: b8fb64c11e2d25746a1d47d222c18e3b, type: 3}
+    musics:
+      ingameMusic: {fileID: 8300000, guid: c74798c6e7db1d348a7759de6fa5fab1, type: 3}
+      homeMusic: {fileID: 8300000, guid: 69e064facc1a1424cb54e1719017506e, type: 3}
+      bossFightMusic: {fileID: 8300000, guid: f9b3a25c70ba7f34abaa6902b2600c4f, type: 3}
+    levels:
+    - levelName: Level 85
+      levelPath: 85
+    - levelName: Level 86
+      levelPath: 86
+    - levelName: Level 87
+      levelPath: 87
+    - levelName: Level 88
+      levelPath: 88
+    - levelName: Level 89
+      levelPath: 89
+    - levelName: Level 90
+      levelPath: 90
+    - levelName: Level 91
+      levelPath: 91
+    - levelName: Level 92
+      levelPath: 92
+    - levelName: Level 93
+      levelPath: 93
+    - levelName: Level 94
+      levelPath: 94
+    - levelName: Level 95
+      levelPath: 95
+    - levelName: Level 96
+      levelPath: 96
+    - levelName: Level 97
+      levelPath: 97
+    - levelName: Level 98
+      levelPath: 98
+    - levelName: Level 99
+      levelPath: 99_bossBoneLord
+  - worldName: 7. Lava (100-115)
+    background: {fileID: 21300000, guid: b8fb64c11e2d25746a1d47d222c18e3b, type: 3}
+    musics:
+      ingameMusic: {fileID: 8300000, guid: 881e16266cd43e2408acd64cea44d3de, type: 3}
+      homeMusic: {fileID: 8300000, guid: c74798c6e7db1d348a7759de6fa5fab1, type: 3}
+      bossFightMusic: {fileID: 8300000, guid: f9b3a25c70ba7f34abaa6902b2600c4f, type: 3}
+    levels:
+    - levelName: Level 100
+      levelPath: 100
+    - levelName: Level 101
+      levelPath: 101
+    - levelName: Level 102
+      levelPath: 102
+    - levelName: Level 103
+      levelPath: 103
+    - levelName: Level 104
+      levelPath: 104
+    - levelName: Level 105
+      levelPath: 105
+    - levelName: Level 106
+      levelPath: 106
+    - levelName: Level 107
+      levelPath: 107
+    - levelName: Level 108
+      levelPath: 108
+    - levelName: Level 109
+      levelPath: 109
+    - levelName: Level 110
+      levelPath: 110
+    - levelName: Level 111
+      levelPath: 111
+    - levelName: Level 112
+      levelPath: 112
+    - levelName: Level 113
+      levelPath: 113
+    - levelName: Level 114
+      levelPath: 114
+    - levelName: Level 115
+      levelPath: 115_bossGiantGolem_2
+  - worldName: 8. RB (116-130)
+    background: {fileID: 21300000, guid: b8fb64c11e2d25746a1d47d222c18e3b, type: 3}
+    musics:
+      ingameMusic: {fileID: 8300000, guid: 17d002bf2b227d641aea55f9fa8b370d, type: 3}
+      homeMusic: {fileID: 8300000, guid: c74798c6e7db1d348a7759de6fa5fab1, type: 3}
+      bossFightMusic: {fileID: 8300000, guid: f9b3a25c70ba7f34abaa6902b2600c4f, type: 3}
+    levels:
+    - levelName: Level 116
+      levelPath: 116
+    - levelName: Level 117
+      levelPath: 117
+    - levelName: Level 118
+      levelPath: 118
+    - levelName: Level 119
+      levelPath: 119
+    - levelName: Level 120
+      levelPath: 120
+    - levelName: Level 121
+      levelPath: 121
+    - levelName: Level 122
+      levelPath: 122
+    - levelName: Level 123
+      levelPath: 123
+    - levelName: Level 124
+      levelPath: 124
+    - levelName: Level 125
+      levelPath: 125
+    - levelName: Level 126
+      levelPath: 126
+    - levelName: Level 127
+      levelPath: 127
+    - levelName: Level 128
+      levelPath: 128
+    - levelName: Level 129
+      levelPath: 129
+    - levelName: Level 130
+      levelPath: 130_bossDarkScarecrow
+  - worldName: 9. Underground (131-145)
+    background: {fileID: 21300000, guid: b8fb64c11e2d25746a1d47d222c18e3b, type: 3}
+    musics:
+      ingameMusic: {fileID: 8300000, guid: 881e16266cd43e2408acd64cea44d3de, type: 3}
+      homeMusic: {fileID: 8300000, guid: c74798c6e7db1d348a7759de6fa5fab1, type: 3}
+      bossFightMusic: {fileID: 8300000, guid: f9b3a25c70ba7f34abaa6902b2600c4f, type: 3}
+    levels:
+    - levelName: Level 131
+      levelPath: 131
+    - levelName: Level 132
+      levelPath: 132
+    - levelName: Level 133
+      levelPath: 133
+    - levelName: Level 134
+      levelPath: 134
+    - levelName: Level 135
+      levelPath: 135
+    - levelName: Level 136
+      levelPath: 136
+    - levelName: Level 137
+      levelPath: 137
+    - levelName: Level 138
+      levelPath: 138
+    - levelName: Level 139
+      levelPath: 139
+    - levelName: Level 140
+      levelPath: 140
+    - levelName: Level 141
+      levelPath: 141
+    - levelName: Level 142
+      levelPath: 142
+    - levelName: Level 143
+      levelPath: 143
+    - levelName: Level 144
+      levelPath: 144
+    - levelName: Level 145
+      levelPath: 145_bossSoulKeeper
+  - worldName: 10. RB (146-160)
+    background: {fileID: 21300000, guid: b8fb64c11e2d25746a1d47d222c18e3b, type: 3}
+    musics:
+      ingameMusic: {fileID: 8300000, guid: 881e16266cd43e2408acd64cea44d3de, type: 3}
+      homeMusic: {fileID: 8300000, guid: c74798c6e7db1d348a7759de6fa5fab1, type: 3}
+      bossFightMusic: {fileID: 8300000, guid: f9b3a25c70ba7f34abaa6902b2600c4f, type: 3}
+    levels:
+    - levelName: Level 146
+      levelPath: 146
+    - levelName: Level 147
+      levelPath: 147
+    - levelName: Level 148
+      levelPath: 148
+    - levelName: Level 149
+      levelPath: 149
+    - levelName: Level 150
+      levelPath: 150
+    - levelName: Level 151
+      levelPath: 151
+    - levelName: Level 152
+      levelPath: 152
+    - levelName: Level 153
+      levelPath: 153
+    - levelName: Level 154
+      levelPath: 154
+    - levelName: Level 155
+      levelPath: 155
+    - levelName: Level 156
+      levelPath: 156
+    - levelName: Level 157
+      levelPath: 157
+    - levelName: Level 158
+      levelPath: 158
+    - levelName: Level 159
+      levelPath: 159
+    - levelName: Leve 160
+      levelPath: 160_bossUnderground
+  - worldName: 11. Lava (161-175)
+    background: {fileID: 21300000, guid: b8fb64c11e2d25746a1d47d222c18e3b, type: 3}
+    musics:
+      ingameMusic: {fileID: 8300000, guid: 881e16266cd43e2408acd64cea44d3de, type: 3}
+      homeMusic: {fileID: 8300000, guid: c74798c6e7db1d348a7759de6fa5fab1, type: 3}
+      bossFightMusic: {fileID: 8300000, guid: f9b3a25c70ba7f34abaa6902b2600c4f, type: 3}
+    levels:
+    - levelName: Level 161
+      levelPath: 161
+    - levelName: Level 162
+      levelPath: 162
+    - levelName: Level 163
+      levelPath: 163
+    - levelName: Level 164
+      levelPath: 164
+    - levelName: Level 165
+      levelPath: 165
+    - levelName: Level 166
+      levelPath: 166
+    - levelName: Level 167
+      levelPath: 167
+    - levelName: Level 168
+      levelPath: 168
+    - levelName: Level 169
+      levelPath: 169
+    - levelName: Level 170
+      levelPath: 170
+    - levelName: Level 171
+      levelPath: 171
+    - levelName: Level172
+      levelPath: 172
+    - levelName: Level 173
+      levelPath: 173
+    - levelName: Level 174
+      levelPath: 174
+    - levelName: Leve 175
+      levelPath: 175_bossBoneLord_2
+  - worldName: 12. Castle (176-190)
+    background: {fileID: 21300000, guid: b8fb64c11e2d25746a1d47d222c18e3b, type: 3}
+    musics:
+      ingameMusic: {fileID: 8300000, guid: 881e16266cd43e2408acd64cea44d3de, type: 3}
+      homeMusic: {fileID: 8300000, guid: c74798c6e7db1d348a7759de6fa5fab1, type: 3}
+      bossFightMusic: {fileID: 8300000, guid: f9b3a25c70ba7f34abaa6902b2600c4f, type: 3}
+    levels:
+    - levelName: Level 176
+      levelPath: 176
+    - levelName: Level 177
+      levelPath: 177
+    - levelName: Level 178
+      levelPath: 178
+    - levelName: Level 179
+      levelPath: 179
+    - levelName: Level 180
+      levelPath: 180
+    - levelName: Level181
+      levelPath: 181
+    - levelName: Level 182
+      levelPath: 182
+    - levelName: Level 183
+      levelPath: 183
+    - levelName: Level 184
+      levelPath: 184
+    - levelName: Level 185
+      levelPath: 185
+    - levelName: Level 186
+      levelPath: 186
+    - levelName: Level 187
+      levelPath: 187
+    - levelName: Level 188
+      levelPath: 188
+    - levelName: Level 189
+      levelPath: 189
+    - levelName: Leve 190
+      levelPath: 190_bossSoulKeeper
+  - worldName: 13. Ramadan (191-205)
+    background: {fileID: 21300000, guid: b8fb64c11e2d25746a1d47d222c18e3b, type: 3}
+    musics:
+      ingameMusic: {fileID: 8300000, guid: d97f0ad09795e234bafa87c169c0f5b7, type: 3}
+      homeMusic: {fileID: 8300000, guid: c74798c6e7db1d348a7759de6fa5fab1, type: 3}
+      bossFightMusic: {fileID: 8300000, guid: f9b3a25c70ba7f34abaa6902b2600c4f, type: 3}
+    levels:
+    - levelName: Level 191
+      levelPath: 191
+    - levelName: Level 192
+      levelPath: 192
+    - levelName: Level 193
+      levelPath: 193
+    - levelName: Level 194
+      levelPath: 194
+    - levelName: Level 195
+      levelPath: 195
+    - levelName: Level 196
+      levelPath: 196
+    - levelName: Level 197
+      levelPath: 197
+    - levelName: Level 198
+      levelPath: 198
+    - levelName: Level 199
+      levelPath: 199
+    - levelName: Level 200
+      levelPath: 200
+    - levelName: Level 201
+      levelPath: 201
+    - levelName: Level 202
+      levelPath: 202
+    - levelName: Level 203
+      levelPath: 203
+    - levelName: Level 204
+      levelPath: 204
+    - levelName: Leve 205
+      levelPath: 205_bossDarkScarecrow_2
+  - worldName: 14. Castle (206-220)
+    background: {fileID: 21300000, guid: b8fb64c11e2d25746a1d47d222c18e3b, type: 3}
+    musics:
+      ingameMusic: {fileID: 8300000, guid: 881e16266cd43e2408acd64cea44d3de, type: 3}
+      homeMusic: {fileID: 8300000, guid: c74798c6e7db1d348a7759de6fa5fab1, type: 3}
+      bossFightMusic: {fileID: 8300000, guid: f9b3a25c70ba7f34abaa6902b2600c4f, type: 3}
+    levels:
+    - levelName: Level 206
+      levelPath: 206
+    - levelName: Level 207
+      levelPath: 207
+    - levelName: Level 208
+      levelPath: 208
+    - levelName: Level 209
+      levelPath: 209
+    - levelName: Level 210
+      levelPath: 210
+    - levelName: Level 211
+      levelPath: 211
+    - levelName: Level 212
+      levelPath: 212
+    - levelName: Level 213
+      levelPath: 213
+    - levelName: Level 214
+      levelPath: 214
+    - levelName: Level 215
+      levelPath: 215
+    - levelName: Level 216
+      levelPath: 216
+    - levelName: Level 217
+      levelPath: 217
+    - levelName: Level 218
+      levelPath: 218
+    - levelName: Level 219
+      levelPath: 219
+    - levelName: Leve 220
+      levelPath: 220_bossUnderground_2
+  - worldName: 15. Underground (221-235)
+    background: {fileID: 21300000, guid: b8fb64c11e2d25746a1d47d222c18e3b, type: 3}
+    musics:
+      ingameMusic: {fileID: 8300000, guid: 881e16266cd43e2408acd64cea44d3de, type: 3}
+      homeMusic: {fileID: 8300000, guid: c74798c6e7db1d348a7759de6fa5fab1, type: 3}
+      bossFightMusic: {fileID: 8300000, guid: f9b3a25c70ba7f34abaa6902b2600c4f, type: 3}
+    levels:
+    - levelName: Level 221
+      levelPath: 221
+    - levelName: Level 222
+      levelPath: 222
+    - levelName: Level 223
+      levelPath: 223
+    - levelName: Level 224
+      levelPath: 224
+    - levelName: Level 225
+      levelPath: 225
+    - levelName: Level 226
+      levelPath: 226
+    - levelName: Level 227
+      levelPath: 227
+    - levelName: Level 228
+      levelPath: 228
+    - levelName: Level 229
+      levelPath: 229
+    - levelName: Level 230
+      levelPath: 230
+    - levelName: Level 231
+      levelPath: 231
+    - levelName: Level 232
+      levelPath: 232
+    - levelName: Level 233
+      levelPath: 233
+    - levelName: Level 234
+      levelPath: 234
+    - levelName: Leve 235
+      levelPath: 235_bossJungleGuardian_2
+  - worldName: 16. Ramadan (236-250)
+    background: {fileID: 21300000, guid: b8fb64c11e2d25746a1d47d222c18e3b, type: 3}
+    musics:
+      ingameMusic: {fileID: 8300000, guid: 881e16266cd43e2408acd64cea44d3de, type: 3}
+      homeMusic: {fileID: 8300000, guid: c74798c6e7db1d348a7759de6fa5fab1, type: 3}
+      bossFightMusic: {fileID: 8300000, guid: f9b3a25c70ba7f34abaa6902b2600c4f, type: 3}
+    levels:
+    - levelName: Level 236
+      levelPath: 236
+    - levelName: Level 237
+      levelPath: 237
+    - levelName: Level 238
+      levelPath: 238
+    - levelName: Level 239
+      levelPath: 239
+    - levelName: Level 240
+      levelPath: 240
+    - levelName: Level 241
+      levelPath: 241
+    - levelName: Level 242
+      levelPath: 242
+    - levelName: Level 243
+      levelPath: 243
+    - levelName: Level 244
+      levelPath: 244
+    - levelName: Level 245
+      levelPath: 245
+    - levelName: Level 246
+      levelPath: 246
+    - levelName: Level 247
+      levelPath: 247
+    - levelName: Level 248
+      levelPath: 248
+    - levelName: Level 249
+      levelPath: 249
+    - levelName: Leve 250
+      levelPath: 250_bossGoldhorn_2
+  - worldName: 17. Castle (251-265)
+    background: {fileID: 21300000, guid: b8fb64c11e2d25746a1d47d222c18e3b, type: 3}
+    musics:
+      ingameMusic: {fileID: 8300000, guid: 881e16266cd43e2408acd64cea44d3de, type: 3}
+      homeMusic: {fileID: 8300000, guid: c74798c6e7db1d348a7759de6fa5fab1, type: 3}
+      bossFightMusic: {fileID: 8300000, guid: f9b3a25c70ba7f34abaa6902b2600c4f, type: 3}
+    levels:
+    - levelName: Level 251
+      levelPath: 251
+    - levelName: Level 252
+      levelPath: 252
+    - levelName: Level 253
+      levelPath: 253
+    - levelName: Level 254
+      levelPath: 254
+    - levelName: Level 255
+      levelPath: 255
+    - levelName: Level 256
+      levelPath: 256
+    - levelName: Level 257
+      levelPath: 257
+    - levelName: Level 258
+      levelPath: 258
+    - levelName: Level 259
+      levelPath: 259
+    - levelName: Level 260
+      levelPath: 260
+    - levelName: Level 261
+      levelPath: 261
+    - levelName: Level 262
+      levelPath: 262
+    - levelName: Level 263
+      levelPath: 263
+    - levelName: Level 264
+      levelPath: 264
+    - levelName: Leve 265
+      levelPath: 265_bossUnderground
+  - worldName: 18. Underground (266-280)
+    background: {fileID: 21300000, guid: b8fb64c11e2d25746a1d47d222c18e3b, type: 3}
+    musics:
+      ingameMusic: {fileID: 8300000, guid: 881e16266cd43e2408acd64cea44d3de, type: 3}
+      homeMusic: {fileID: 8300000, guid: c74798c6e7db1d348a7759de6fa5fab1, type: 3}
+      bossFightMusic: {fileID: 8300000, guid: f9b3a25c70ba7f34abaa6902b2600c4f, type: 3}
+    levels:
+    - levelName: Level 266
+      levelPath: 266
+    - levelName: Level 267
+      levelPath: 267
+    - levelName: Level 268
+      levelPath: 268
+    - levelName: Level 269
+      levelPath: 269
+    - levelName: Level 270
+      levelPath: 270
+    - levelName: Level 271
+      levelPath: 271
+    - levelName: Level 272
+      levelPath: 272
+    - levelName: Level 273
+      levelPath: 273
+    - levelName: Level 274
+      levelPath: 274
+    - levelName: Level 275
+      levelPath: 275
+    - levelName: Level 276
+      levelPath: 276
+    - levelName: Level 277
+      levelPath: 277
+    - levelName: Level 278
+      levelPath: 278
+    - levelName: Level 279
+      levelPath: 279
+    - levelName: Leve 280
+      levelPath: 280_bossDarkScarecrow_2
+  - worldName: 19. Ramadan (280-300)
+    background: {fileID: 21300000, guid: b8fb64c11e2d25746a1d47d222c18e3b, type: 3}
+    musics:
+      ingameMusic: {fileID: 8300000, guid: 01eba358c7098c94fb9276c696a08883, type: 3}
+      homeMusic: {fileID: 8300000, guid: c74798c6e7db1d348a7759de6fa5fab1, type: 3}
+      bossFightMusic: {fileID: 8300000, guid: f9b3a25c70ba7f34abaa6902b2600c4f, type: 3}
+    levels:
+    - levelName: Level 281
+      levelPath: 281
+    - levelName: Level 282
+      levelPath: 282
+    - levelName: Level 283
+      levelPath: 283
+    - levelName: Level 284
+      levelPath: 284
+    - levelName: Level 285
+      levelPath: 285
+    - levelName: Level 286
+      levelPath: 286
+    - levelName: Level 287
+      levelPath: 287
+    - levelName: Level 288
+      levelPath: 288
+    - levelName: Level 289
+      levelPath: 289
+    - levelName: Level 290
+      levelPath: 290
+    - levelName: Level 291
+      levelPath: 291
+    - levelName: Level 292
+      levelPath: 292
+    - levelName: Level 293
+      levelPath: 293
+    - levelName: Level 294
+      levelPath: 294
+    - levelName: Level 295
+      levelPath: 295
+    - levelName: Level 296
+      levelPath: 296
+    - levelName: Level 297
+      levelPath: 297
+    - levelName: Level 298
+      levelPath: 298
+    - levelName: Level 299
+      levelPath: 299
+    - levelName: Level 300
+      levelPath: 300_bossSoulKeeper
+  m_playerAvatars:
+  - {fileID: 21300000, guid: 5dc304719561ae04dad61454ff189f41, type: 3}
+  - {fileID: 21300000, guid: 400364800c7db4c4dbfcc40945fd0b91, type: 3}
+  - {fileID: 21300000, guid: 0bb62194761843b48b9f9af6bb1e61ac, type: 3}
+  - {fileID: 21300000, guid: 15832710dd51bc548bcd4a6285391842, type: 3}
+  - {fileID: 21300000, guid: b69e1729618c47347bce342df1541dee, type: 3}
+  - {fileID: 21300000, guid: 16eaafb6a743f5d4fb0bd84a81c8e5f3, type: 3}
+  - {fileID: 21300000, guid: 7a7d2f2501325fa479f0845370332070, type: 3}
+  - {fileID: 21300000, guid: 7cb50a34e972d454f95d57ad8c6e2d73, type: 3}
+  - {fileID: 21300000, guid: 3caa036436a758446a92a357189b9e7a, type: 3}
+  bossAvatars:
+  - {fileID: 21300000, guid: 33d9a4458bce47a4ba9df68bd3256631, type: 3}
+  - {fileID: 21300000, guid: 8333c850db35c6c43ad253e0428899da, type: 3}
+  - {fileID: 21300000, guid: aa0b22229a1bc4e45853bb714028fdd1, type: 3}
+  - {fileID: 21300000, guid: e531d7e8e4bb1c14abe354fd9bbfc7b5, type: 3}
+  - {fileID: 21300000, guid: 6dbc5701921516b4c985318e8d7c5669, type: 3}
+  - {fileID: 21300000, guid: 5fcbcb31b6a37f84cb78350e029853dc, type: 3}
+  - {fileID: 21300000, guid: aa3b62cb649b56445bc8a4e5aef78215, type: 3}
+  - {fileID: 21300000, guid: 8b9c7633f0f6a490d83f8fd58e79db93, type: 3}
+  - {fileID: 21300000, guid: f4bda4fc32abfd44fb8f99dae53ce962, type: 3}
+  - {fileID: 21300000, guid: 53628dca380c50b499f24bd81ad1e834, type: 3}
+  - {fileID: 21300000, guid: 606ed01a82c144144bbcb3a19a36c7cf, type: 3}
+  - {fileID: 21300000, guid: 8b411183f652f254d8d8765146be1297, type: 3}
+  - {fileID: 21300000, guid: 5d866885b92a42342a75d9a023546f69, type: 3}
+  - {fileID: 21300000, guid: e3ee86b358776f24094e4402b3ccbb7d, type: 3}
+  - {fileID: 21300000, guid: d2e9a81135a573b41819a05be61d4e2f, type: 3}
+  - {fileID: 21300000, guid: 1669e49ce412f034baea1c90e244f95a, type: 3}
+  - {fileID: 21300000, guid: 273f6ba45d5305748ae7a3f4787a54bd, type: 3}
+  - {fileID: 21300000, guid: a6f9dc7da13355c4a9051e74aaabb2e5, type: 3}
+  - {fileID: 21300000, guid: 9751bc25412c5554aaea3b3ad2812bc6, type: 3}
+  - {fileID: 21300000, guid: d9f4ed79552771b47bcf5c04219e9d6f, type: 3}
+  - {fileID: 21300000, guid: 632091267c53fb047a0b5e2bca6d4bf3, type: 3}
+  m_backgrounds:
+  - season: 0
+    background: {fileID: 7836793389824348793, guid: 45da1ee4ff5ddd041ad2decda891ac97,
+      type: 3}
+  - season: 1
+    background: {fileID: 5613864216411751540, guid: a5236a6dc29f4d345b757b2c7865f396,
+      type: 3}
+  - season: 2
+    background: {fileID: 3334563335760067179, guid: f6c174693c4d3cd479965c2c78c03f55,
+      type: 3}
+  - season: 3
+    background: {fileID: 5431863587264215831, guid: 9fda2b1a207a6024ea3792ff16d2b87a,
+      type: 3}
+  - season: 4
+    background: {fileID: 3838477385850930609, guid: a6231d7abcd98634b9cd6b8d3f5a2512,
+      type: 3}
+  - season: 5
+    background: {fileID: 3334563335760067179, guid: ffb7a1fde02bba24481b859f0a7e1c2e,
+      type: 3}
+  - season: 6
+    background: {fileID: 5613864216411751540, guid: 5b381ca0b050fc94783827bd218d3693,
+      type: 3}
+  - season: 7
+    background: {fileID: 3821825271162750224, guid: 4cfe2609538cf3149a08d70c89816a7e,
+      type: 3}
+  - season: 8
+    background: {fileID: 3563126168754442317, guid: 3bf0d159ec8b7404bbcad224d5c7199e,
+      type: 3}
+  - season: 9
+    background: {fileID: 7836793389824348793, guid: 9e4a7a9aa41cd7241acc81bfe93956f7,
+      type: 3}
+  - season: 10
+    background: {fileID: 7836793389824348793, guid: 71b01af87bc4f3547aea551890700255,
+      type: 3}
+  - season: 11
+    background: {fileID: 7836793389824348793, guid: efc7b288ffdd7da40a1c1c5ff68249a3,
+      type: 3}
+  - season: 12
+    background: {fileID: 7836793389824348793, guid: 12e1ffc071c4f4f4c8657f950790c62c,
+      type: 3}
+  - season: 13
+    background: {fileID: 7836793389824348793, guid: e68d89599ccbbad4694742c21bb002fc,
+      type: 3}
+  - season: 15
+    background: {fileID: 7836793389824348793, guid: ebec08a8c81e1a9468392018fa05d61e,
+      type: 3}
+  - season: 16
+    background: {fileID: 3821825271162750224, guid: 35f79d8e16243e74493a5f8cbd3bb429,
+      type: 3}
+  - season: 17
+    background: {fileID: 3334563335760067179, guid: e102220cfac28554bac6d44432434fdc,
+      type: 3}
+  - season: 18
+    background: {fileID: 7836793389824348793, guid: 98256d24a6e98a046b95c33dab3b7752,
+      type: 3}
+  m_skins:
+  - skin: 1
+    fightVoices:
+    - {fileID: 8300000, guid: 4eb5f9ea20a2e4db6ac448893ed2c68f, type: 3}
+    - {fileID: 8300000, guid: f267f86a7d2d742bc81e877c6a186333, type: 3}
+    - {fileID: 8300000, guid: e6f42b69d513146789bd1081b3148e7d, type: 3}
+  - skin: 2
+    fightVoices:
+    - {fileID: 8300000, guid: 4eb5f9ea20a2e4db6ac448893ed2c68f, type: 3}
+    - {fileID: 8300000, guid: f267f86a7d2d742bc81e877c6a186333, type: 3}
+    - {fileID: 8300000, guid: e6f42b69d513146789bd1081b3148e7d, type: 3}
+  - skin: 3
+    fightVoices:
+    - {fileID: 8300000, guid: 7c7cdba7010c0b748a4acfc14deff56d, type: 3}
+    - {fileID: 8300000, guid: 10884bd8a9b30a84891a416854bc2052, type: 3}
+    - {fileID: 8300000, guid: b8355640fa9f6c549a363a938249ac8a, type: 3}
+  - skin: 4
+    fightVoices:
+    - {fileID: 8300000, guid: 776fd331c71152c4f8c15027efd75ec9, type: 3}
+    - {fileID: 8300000, guid: 1d1d589853b70484298695cf22c99660, type: 3}
+    - {fileID: 8300000, guid: 835ed360158641c4e89d66a6eb0555bb, type: 3}
+  - skin: 5
+    fightVoices:
+    - {fileID: 8300000, guid: b89f1e2c50c1ef243ae5fe66ce83c5eb, type: 3}
+    - {fileID: 8300000, guid: cfbdda95398554d97a44f8e24ee33de5, type: 3}
+    - {fileID: 8300000, guid: 7770e96191e0ad14fa0a8d7b9fc16af6, type: 3}
+  - skin: 6
+    fightVoices:
+    - {fileID: 8300000, guid: b89f1e2c50c1ef243ae5fe66ce83c5eb, type: 3}
+    - {fileID: 8300000, guid: cfbdda95398554d97a44f8e24ee33de5, type: 3}
+    - {fileID: 8300000, guid: 7770e96191e0ad14fa0a8d7b9fc16af6, type: 3}
+  - skin: 7
+    fightVoices:
+    - {fileID: 8300000, guid: b89f1e2c50c1ef243ae5fe66ce83c5eb, type: 3}
+    - {fileID: 8300000, guid: cfbdda95398554d97a44f8e24ee33de5, type: 3}
+    - {fileID: 8300000, guid: 7770e96191e0ad14fa0a8d7b9fc16af6, type: 3}
+  - skin: 8
+    fightVoices:
+    - {fileID: 8300000, guid: b89f1e2c50c1ef243ae5fe66ce83c5eb, type: 3}
+    - {fileID: 8300000, guid: cfbdda95398554d97a44f8e24ee33de5, type: 3}
+    - {fileID: 8300000, guid: 7770e96191e0ad14fa0a8d7b9fc16af6, type: 3}
+  - skin: 9
+    fightVoices:
+    - {fileID: 8300000, guid: b89f1e2c50c1ef243ae5fe66ce83c5eb, type: 3}
+    - {fileID: 8300000, guid: cfbdda95398554d97a44f8e24ee33de5, type: 3}
+    - {fileID: 8300000, guid: 7770e96191e0ad14fa0a8d7b9fc16af6, type: 3}
+  m_weapons:
+  - weaponName: 0
+    weapon: {fileID: 5153917918652484317, guid: e77a5fd5b819915458bbf0afb9e2a272,
+      type: 3}
+    weaponSkinName: w1
+    avatar: {fileID: 21300000, guid: daea361096b0a314f95d060d7064fa15, type: 3}
+  - weaponName: 1
+    weapon: {fileID: -7133532246923920539, guid: 9c0f481b7e58a3c47a0eee1e59de0d0b,
+      type: 3}
+    weaponSkinName: w2
+    avatar: {fileID: 21300000, guid: c41143bf3d211b24b8c80136b17f92e8, type: 3}
+  - weaponName: 2
+    weapon: {fileID: 6685117484057906630, guid: 0a7c56101bd37bb4d9fdb6baa5463c13,
+      type: 3}
+    weaponSkinName: w3
+    avatar: {fileID: 21300000, guid: 88d8752e960c87f4b97fdd8224116089, type: 3}
+  - weaponName: 3
+    weapon: {fileID: 4155891619360869745, guid: 67c2f6fa5d06d7545b40450477c159cb,
+      type: 3}
+    weaponSkinName: w4
+    avatar: {fileID: 21300000, guid: 6dafd1cafdcdd2a4c979d00989e1da3f, type: 3}
+  - weaponName: 4
+    weapon: {fileID: 7728064824625416617, guid: 4eb9acea4cc36224abe9bb2345b8795b,
+      type: 3}
+    weaponSkinName: w5
+    avatar: {fileID: 21300000, guid: af633bc4077ec3f4999dfcfd6072850a, type: 3}
+  - weaponName: 5
+    weapon: {fileID: 4207258467820219582, guid: 488971adf72d973438fdae5ef7fa5f15,
+      type: 3}
+    weaponSkinName: w6
+    avatar: {fileID: 21300000, guid: 86662b7daf142324aaf63ced62b30464, type: 3}
+  - weaponName: 6
+    weapon: {fileID: 7728064824625416617, guid: e9857aa5301569f4596b40f774362d67,
+      type: 3}
+    weaponSkinName: w7
+    avatar: {fileID: 21300000, guid: 5554b721b783b9b4eb436692f869dde2, type: 3}
+  - weaponName: 7
+    weapon: {fileID: 7728064824625416617, guid: 8062fc1dbe38f3546be39def0c441cb5,
+      type: 3}
+    weaponSkinName: w8
+    avatar: {fileID: 21300000, guid: 64e1ce9b93edfcd489423ddcef40b029, type: 3}
+  - weaponName: 8
+    weapon: {fileID: -7133532246923920539, guid: 272fa78bdbfe8174f86d8e7f4a0c0843,
+      type: 3}
+    weaponSkinName: w9
+    avatar: {fileID: 21300000, guid: 932e070b590a9164ca88524cee9ec516, type: 3}
+  - weaponName: 9
+    weapon: {fileID: 6685117484057906630, guid: 0fb523e76f6f0e04ca7f5cad23ee09a3,
+      type: 3}
+    weaponSkinName: w10
+    avatar: {fileID: 21300000, guid: 11c1b585fef4fd5428cf68ad293c37a0, type: 3}
+  - weaponName: 10
+    weapon: {fileID: 4155891619360869745, guid: e96ad23b2a8dc9145a48dbb3e36d9024,
+      type: 3}
+    weaponSkinName: w11
+    avatar: {fileID: 21300000, guid: c01bb7695667f3d40b36df82a3841675, type: 3}
+  - weaponName: 11
+    weapon: {fileID: 4207258467820219582, guid: 9f8ddc8bf228ac34cb6a27ae0d9ce265,
+      type: 3}
+    weaponSkinName: w12
+    avatar: {fileID: 21300000, guid: f450930d7f56593499c5778b8fe2f2c2, type: 3}
+  bossLevels:
+  - bossName: bossDarkScarecrow
+    levelPath: 9_trial_bossDarkScarecrow
+    defaultMusic: {fileID: 8300000, guid: 881e16266cd43e2408acd64cea44d3de, type: 3}
+    bossMusic: {fileID: 8300000, guid: f9b3a25c70ba7f34abaa6902b2600c4f, type: 3}
+  - bossName: bossKratos
+    levelPath: 15_trial_bossKratos
+    defaultMusic: {fileID: 8300000, guid: 881e16266cd43e2408acd64cea44d3de, type: 3}
+    bossMusic: {fileID: 8300000, guid: f9b3a25c70ba7f34abaa6902b2600c4f, type: 3}
+  - bossName: bossGiantGolem
+    levelPath: 24_trial_bossGiantGolem
+    defaultMusic: {fileID: 8300000, guid: 881e16266cd43e2408acd64cea44d3de, type: 3}
+    bossMusic: {fileID: 8300000, guid: f9b3a25c70ba7f34abaa6902b2600c4f, type: 3}
+  - bossName: bossUnderground
+    levelPath: 39_trial_bossUnderground
+    defaultMusic: {fileID: 8300000, guid: 881e16266cd43e2408acd64cea44d3de, type: 3}
+    bossMusic: {fileID: 8300000, guid: f9b3a25c70ba7f34abaa6902b2600c4f, type: 3}
+  - bossName: bossJungleGuardian
+    levelPath: 54_trial_bossJungleGuardian
+    defaultMusic: {fileID: 8300000, guid: 881e16266cd43e2408acd64cea44d3de, type: 3}
+    bossMusic: {fileID: 8300000, guid: f9b3a25c70ba7f34abaa6902b2600c4f, type: 3}
+  - bossName: bossGoldhorn
+    levelPath: 69_trial_bossGoldhorn
+    defaultMusic: {fileID: 8300000, guid: 881e16266cd43e2408acd64cea44d3de, type: 3}
+    bossMusic: {fileID: 8300000, guid: f9b3a25c70ba7f34abaa6902b2600c4f, type: 3}
+  - bossName: bossSoulKeeper
+    levelPath: 84_trial_bossSoulKeeper
+    defaultMusic: {fileID: 8300000, guid: 881e16266cd43e2408acd64cea44d3de, type: 3}
+    bossMusic: {fileID: 8300000, guid: f9b3a25c70ba7f34abaa6902b2600c4f, type: 3}
+  - bossName: bossBoneLord
+    levelPath: 99_trial_bossBoneLord
+    defaultMusic: {fileID: 8300000, guid: 881e16266cd43e2408acd64cea44d3de, type: 3}
+    bossMusic: {fileID: 8300000, guid: f9b3a25c70ba7f34abaa6902b2600c4f, type: 3}

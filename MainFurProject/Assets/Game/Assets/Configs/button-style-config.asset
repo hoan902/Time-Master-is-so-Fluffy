@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bd1e2cfe164ea04aaa08f0db1b4b6a8, type: 3}
+  m_Name: button-style-config
+  m_EditorClassIdentifier: 
+  styles:
+  - buttonOkSprite: {fileID: 21300000, guid: b5bfd882e66cc2d41a7a2cbd6fc5041f, type: 3}
+    processSprite: {fileID: 21300000, guid: 8b65d8d1078f0374ba08ca0c919d7d08, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 0}
+  - buttonOkSprite: {fileID: 21300000, guid: 6c7f44c683194874e8b29a46acd42643, type: 3}
+    processSprite: {fileID: 21300000, guid: 85320c352b6b8d04cafe512096929af9, type: 3}
+    color: {r: 0.44313726, g: 0.99607843, b: 0.019607844, a: 1}

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af7181f404f1447c0a7a17b3070b952b, type: 3}
+  m_Name: shape-summer
+  m_EditorClassIdentifier: 
+  m_Angles:
+  - m_Start: -47
+    m_End: 41
+    m_Order: 1
+    m_Sprites:
+    - {fileID: 21300000, guid: 29c591fa91b403d4f82e61d47e572a79, type: 3}
+  - m_Start: 135
+    m_End: 225
+    m_Order: 0
+    m_Sprites:
+    - {fileID: 21300000, guid: 9c3df4a6fe39d3647ae0d6413ddecbed, type: 3}
+  - m_Start: -135
+    m_End: -47
+    m_Order: 0
+    m_Sprites:
+    - {fileID: 21300000, guid: 55f4293f4937dc943ada4da8247d6848, type: 3}
+  - m_Start: 41
+    m_End: 135
+    m_Order: 0
+    m_Sprites:
+    - {fileID: 21300000, guid: af078dd18cad11944b219809730e9a01, type: 3}
+  m_FillTexture: {fileID: 2800000, guid: 6f91edac3a20c9e48bf8b16ff52a438a, type: 3}
+  m_CornerSprites:
+  - m_CornerType: 0
+    m_Sprites:
+    - {fileID: 0}
+  - m_CornerType: 1
+    m_Sprites:
+    - {fileID: 0}
+  - m_CornerType: 2
+    m_Sprites:
+    - {fileID: 21300000, guid: c943d79e16a80a24f8ce19e5ef2c19ab, type: 3}
+  - m_CornerType: 3
+    m_Sprites:
+    - {fileID: 21300000, guid: 3ac6fc0ec84979740bfa662a74fb34ca, type: 3}
+  - m_CornerType: 4
+    m_Sprites:
+    - {fileID: 0}
+  - m_CornerType: 5
+    m_Sprites:
+    - {fileID: 0}
+  - m_CornerType: 6
+    m_Sprites:
+    - {fileID: 0}
+  - m_CornerType: 7
+    m_Sprites:
+    - {fileID: 0}
+  m_FillOffset: 0
+  m_UseSpriteBorders: 1

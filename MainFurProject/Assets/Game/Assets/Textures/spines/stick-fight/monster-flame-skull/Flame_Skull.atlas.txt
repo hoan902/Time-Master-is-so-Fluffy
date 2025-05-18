@@ -1,0 +1,27 @@
+Flame_Skull.png
+size:2033,2027
+filter:Linear,Linear
+pma:true
+Layer 1
+bounds:2,2,622,337
+Layer 104
+bounds:710,21,506,404
+offsets:1,0,508,406
+Layer 105
+bounds:1709,871,163,337
+offsets:1,1,165,339
+Layer 122
+bounds:2,341,706,723
+offsets:2,2,708,725
+t0
+bounds:2,1066,897,959
+t1
+bounds:1656,1210,375,815
+t2
+bounds:1260,185,447,799
+t3
+bounds:901,1412,705,613
+t4
+bounds:710,427,548,557
+t5
+bounds:901,986,753,424

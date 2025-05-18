@@ -1,0 +1,17 @@
+bullet_boss_map2.png
+size:250,307
+filter:Linear,Linear
+pma:true
+1
+bounds:2,87,127,127
+offsets:2,2,131,131
+11
+bounds:2,2,161,83
+2
+bounds:131,145,69,69
+22
+bounds:2,216,234,89
+33
+bounds:165,3,140,83
+offsets:0,1,140,84
+rotate:90

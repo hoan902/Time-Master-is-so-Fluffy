@@ -1,0 +1,13 @@
+9_chest.png
+size:396,269
+filter:Linear,Linear
+pma:true
+1
+bounds:269,59,125,63
+1-1
+bounds:269,196,124,71
+2
+bounds:269,124,118,70
+fx
+bounds:2,2,265,265
+offsets:19,19,303,303

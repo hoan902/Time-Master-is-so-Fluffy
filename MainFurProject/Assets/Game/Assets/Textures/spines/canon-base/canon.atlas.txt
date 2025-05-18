@@ -1,0 +1,10 @@
+canon.png
+size:445,200
+filter:Linear,Linear
+pma:true
+base
+bounds:250,43,193,155
+base_2
+bounds:250,2,39,39
+canon
+bounds:2,3,246,195

@@ -1,0 +1,48 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "BuildClient/1.0.0": {
+        "dependencies": {
+          "BuildContract": "1.0.0",
+          "Rpc": "1.0.0"
+        },
+        "runtime": {
+          "BuildClient.dll": {}
+        }
+      },
+      "BuildContract/1.0.0": {
+        "runtime": {
+          "BuildContract.dll": {}
+        }
+      },
+      "Rpc/1.0.0": {
+        "runtime": {
+          "Rpc.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BuildClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BuildContract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Rpc/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

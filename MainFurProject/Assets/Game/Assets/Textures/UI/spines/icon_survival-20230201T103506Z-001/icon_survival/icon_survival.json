@@ -1,0 +1,84 @@
+{
+"skeleton": {
+	"hash": "RrVo4+df8PM",
+	"spine": "4.1.17",
+	"x": -140.03,
+	"y": -2.06,
+	"width": 280,
+	"height": 284.94,
+	"images": "./images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "x": -0.02, "y": -49.2 },
+	{ "name": "bone2", "parent": "bone", "length": 63.32, "rotation": 90, "x": -0.24, "y": 50.99 },
+	{ "name": "bone3", "parent": "bone2", "length": 45.56, "rotation": -0.78, "x": 113.66, "y": -0.25 },
+	{ "name": "control", "parent": "bone3", "length": 54.64, "rotation": 34.91, "x": 83, "y": -23.72 }
+],
+"slots": [
+	{ "name": "map", "bone": "bone3", "attachment": "map" },
+	{ "name": "control", "bone": "control", "attachment": "control" },
+	{ "name": "6", "bone": "bone2", "attachment": "border" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"6": {
+				"border": { "x": 47.16, "y": -0.23, "rotation": -90, "width": 280, "height": 102 }
+			},
+			"control": {
+				"control": { "x": 39.32, "y": 1.39, "rotation": -124.13, "width": 82, "height": 106 }
+			},
+			"map": {
+				"map": { "x": 49.01, "y": -1.5, "rotation": -89.22, "width": 172, "height": 140 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"bone3": {
+				"translate": [
+					{
+						"curve": [ 0.222, 0, 0.444, -7.8, 0.222, 0, 0.444, 0.01 ]
+					},
+					{
+						"time": 0.6667,
+						"x": -7.8,
+						"y": 0.01,
+						"curve": [ 0.889, -7.8, 1.111, 0, 0.889, 0.01, 1.111, 0 ]
+					},
+					{ "time": 1.3333 }
+				]
+			},
+			"control": {
+				"scale": [
+					{
+						"curve": [ 0.111, 1, 0.222, 1.15, 0.111, 1, 0.222, 1.15 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 1.15,
+						"y": 1.15,
+						"curve": [ 0.444, 1.15, 0.556, 1, 0.444, 1.15, 0.556, 1 ]
+					},
+					{
+						"time": 0.6667,
+						"curve": [ 0.778, 1, 0.889, 1.15, 0.778, 1, 0.889, 1.15 ]
+					},
+					{
+						"time": 1,
+						"x": 1.15,
+						"y": 1.15,
+						"curve": [ 1.111, 1.15, 1.222, 1, 1.111, 1.15, 1.222, 1 ]
+					},
+					{ "time": 1.3333 }
+				]
+			}
+		}
+	}
+}
+}

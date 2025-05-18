@@ -1,0 +1,12 @@
+shop.png
+size:250,209
+filter:Linear,Linear
+pma:true
+shop
+bounds:152,2,205,96
+offsets:2,2,209,100
+rotate:90
+shop_icon
+bounds:2,4,203,148
+offsets:1,1,205,150
+rotate:90

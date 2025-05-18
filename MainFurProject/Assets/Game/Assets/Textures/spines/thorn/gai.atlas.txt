@@ -1,0 +1,15 @@
+gai.png
+size:151,140
+filter:Linear,Linear
+pma:true
+scale:0.7
+1
+bounds:73,25,76,113
+2
+bounds:2,8,69,130
+3
+bounds:73,2,15,21
+offsets:0,0,15,22
+4
+bounds:73,2,15,21
+offsets:0,0,15,22

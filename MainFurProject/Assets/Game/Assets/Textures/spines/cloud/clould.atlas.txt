@@ -1,0 +1,31 @@
+clould.png
+size:223,283
+filter:Linear,Linear
+pma:true
+Ellipse 1
+bounds:79,55,71,71
+Ellipse 1 copy 2
+bounds:152,57,69,69
+Ellipse 3 copy 4
+bounds:152,2,55,53
+Ellipse 3 copy 5
+bounds:2,7,39,39
+Ellipse 3 copy 6
+bounds:81,2,53,51
+Ellipse 3 copy 7
+bounds:43,9,36,37
+Ellipse 4 copy 2
+bounds:79,128,72,72
+Ellipse 5 copy
+bounds:153,156,56,56
+Ellipse 6 copy 2
+bounds:2,125,75,75
+Ellipse 7
+bounds:83,211,70,68
+rotate:90
+Ellipse 7 copy 2
+bounds:153,214,67,67
+Ellipse 8
+bounds:2,202,79,79
+Ellipse 8 copy
+bounds:2,48,75,75

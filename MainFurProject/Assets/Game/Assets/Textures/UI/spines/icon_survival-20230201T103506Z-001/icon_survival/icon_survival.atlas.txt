@@ -1,0 +1,12 @@
+icon_survival.png
+size:248,284
+filter:Linear,Linear
+pma:true
+border
+bounds:2,2,280,102
+rotate:90
+control
+bounds:106,2,82,106
+map
+bounds:106,110,172,140
+rotate:90

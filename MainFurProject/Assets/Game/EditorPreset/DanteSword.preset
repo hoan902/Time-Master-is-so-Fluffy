@@ -1,0 +1,268 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DanteSword
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 4cd08686e9f43884e931b091ae414ed8,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: skin
+    value: w7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: animationFightGroundDefault
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: animationFightAirDefault
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: baseDamage
+    value: 20
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: criticalTimeFreeze
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: freezeTime
+    value: 0.2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_clipFight.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_clipFight.Array.data[0]
+    value: 
+    objectReference: {fileID: 8300000, guid: 9eab9574e0c1dd8438f38b80d150dd49, type: 3}
+  - target: {fileID: 0}
+    propertyPath: m_clipFight.Array.data[1]
+    value: 
+    objectReference: {fileID: 8300000, guid: 6fedde267af013149a0f0b9ba105867a, type: 3}
+  - target: {fileID: 0}
+    propertyPath: m_clipFight.Array.data[2]
+    value: 
+    objectReference: {fileID: 8300000, guid: 8ebe967c891cbc540b6666d953d6a090, type: 3}
+  - target: {fileID: 0}
+    propertyPath: enemyAttackArea
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: wallAttackArea
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: enemyContactFilter.useTriggers
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: enemyContactFilter.useLayerMask
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: enemyContactFilter.useDepth
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: enemyContactFilter.useOutsideDepth
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: enemyContactFilter.useNormalAngle
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: enemyContactFilter.useOutsideNormalAngle
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: enemyContactFilter.layerMask.m_Bits
+    value: 2131968
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: enemyContactFilter.minDepth
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: enemyContactFilter.maxDepth
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: enemyContactFilter.minNormalAngle
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: enemyContactFilter.maxNormalAngle
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: wallContactFilter.useTriggers
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: wallContactFilter.useLayerMask
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: wallContactFilter.useDepth
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: wallContactFilter.useOutsideDepth
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: wallContactFilter.useNormalAngle
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: wallContactFilter.useOutsideNormalAngle
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: wallContactFilter.layerMask.m_Bits
+    value: 512
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: wallContactFilter.minDepth
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: wallContactFilter.maxDepth
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: wallContactFilter.minNormalAngle
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: wallContactFilter.maxNormalAngle
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: weaponSkills.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: weaponCombos.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: weaponCombos.Array.data[0].animtaionFightGround
+    value: attack_7_1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: weaponCombos.Array.data[0].animtaionFightAir
+    value: attack_jump_7_1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: weaponCombos.Array.data[0].damage
+    value: 20
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: weaponCombos.Array.data[0].attackArea
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: weaponCombos.Array.data[1].animtaionFightGround
+    value: attack_7_2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: weaponCombos.Array.data[1].animtaionFightAir
+    value: attack_jump_7_2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: weaponCombos.Array.data[1].damage
+    value: 20
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: weaponCombos.Array.data[1].attackArea
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: weaponCombos.Array.data[2].animtaionFightGround
+    value: attack_7_3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: weaponCombos.Array.data[2].animtaionFightAir
+    value: attack_jump_7_3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: weaponCombos.Array.data[2].damage
+    value: 30
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: weaponCombos.Array.data[2].attackArea
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: hasStrain
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: strainFreezeTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: strainAnimation
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: strainFullAnimation
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_strainClip
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: player
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_shotPoint
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_wind
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_windDamage
+    value: 20
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_windSpeed
+    value: 25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_windLifeTime
+    value: 0.4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_audioWind
+    value: 
+    objectReference: {fileID: 8300000, guid: 7770e96191e0ad14fa0a8d7b9fc16af6, type: 3}
+  m_ExcludedProperties: []

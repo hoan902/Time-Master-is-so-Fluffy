@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Ui
+  m_EditorClassIdentifier: 
+  m_GroupName: Ui
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 6bac81acae8fd2c47ba5849d5b730cc0
+  m_SerializeEntries:
+  - m_GUID: 196411e4d3ca1144586e183bf719b482
+    m_Address: Assets/Game/Assets/Prefabs/ui/game-scene.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4faddfb03ba5e5d4a8fb4c39f881ea96
+    m_Address: Assets/Game/Assets/Prefabs/ui/home-scene.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 78bebb5da87fa9e4ba673285b07f305d
+    m_Address: Assets/Game/Assets/Configs/game-config.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3bcc018463c51747bca721442f85392
+    m_Address: Assets/Game/Assets/Configs/unique-skin-config.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32e339470c7dd92418f7fa537dfea0c0
+    m_Address: Assets/Game/Assets/Configs/button-style-config.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: e1aadab01e6f5104eb1295f6c3c1d4c7, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7df8f154f57bda646b69e7fb8c825a86, type: 2}
+    - {fileID: 11400000, guid: ba673171f25ba5b40adbba547583eb50, type: 2}

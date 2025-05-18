@@ -1,0 +1,16 @@
+mini_chest.png
+size:450,208
+filter:Linear,Linear
+pma:true
+1
+bounds:2,41,187,91
+1-1
+bounds:71,134,187,72
+1-2
+bounds:2,140,66,67
+rotate:90
+2
+bounds:260,121,188,85
+fx
+bounds:191,2,237,117
+offsets:1,0,239,120

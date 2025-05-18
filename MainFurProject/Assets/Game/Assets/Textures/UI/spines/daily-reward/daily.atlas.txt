@@ -1,0 +1,15 @@
+daily.png
+size:360,190
+filter:Linear,Linear
+pma:true
+border
+bounds:2,2,186,98
+offsets:2,2,190,102
+rotate:90
+check
+bounds:102,22,158,166
+offsets:1,1,160,168
+tick
+bounds:262,85,103,96
+offsets:1,1,105,98
+rotate:90

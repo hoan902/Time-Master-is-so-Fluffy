@@ -1,0 +1,9 @@
+icon_bag.png
+size:429,153
+filter:Linear,Linear
+pma:true
+Group 69
+bounds:2,56,264,95
+offsets:2,2,268,99
+item_bag
+bounds:268,2,159,149

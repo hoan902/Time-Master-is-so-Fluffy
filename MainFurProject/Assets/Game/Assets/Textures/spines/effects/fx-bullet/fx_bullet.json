@@ -1,0 +1,100 @@
+{
+"skeleton": {
+	"hash": "iScAKny0zMc",
+	"spine": "4.1.08",
+	"x": -51.75,
+	"y": -48.82,
+	"width": 103.5,
+	"height": 97.65,
+	"images": "./images/",
+	"audio": "D:/Mgif/Ball 6/Ball6/Assets/Game/Assets/Textures/spines/effects/fx-bullet"
+},
+"bones": [
+	{ "name": "root", "scaleX": 0.45, "scaleY": 0.45 },
+	{ "name": "bone6", "parent": "root" }
+],
+"slots": [
+	{ "name": "sm1", "bone": "bone6", "color": "ffffff00", "attachment": "sm1" },
+	{ "name": "bullet", "bone": "root", "color": "ffffff00", "attachment": "bullet" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"bullet": {
+				"bullet": { "x": -6.09, "y": 3.68, "width": 86, "height": 78 }
+			},
+			"sm1": {
+				"sm1": { "width": 230, "height": 217 },
+				"sm2": { "width": 230, "height": 217 },
+				"sm3": { "width": 230, "height": 217 },
+				"sm5": { "width": 230, "height": 217 },
+				"sm7": { "width": 230, "height": 217 },
+				"sm8": { "width": 230, "height": 217 },
+				"sm9": { "width": 230, "height": 217 },
+				"sm10": { "width": 230, "height": 217 },
+				"sm11": { "width": 230, "height": 217 },
+				"sm12": { "width": 230, "height": 217 }
+			}
+		}
+	}
+],
+"events": {
+	"attackready": {},
+	"complete": {},
+	"down": {},
+	"up": {}
+},
+"animations": {
+	"bullet": {
+		"slots": {
+			"bullet": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			}
+		}
+	},
+	"fx_enemi": {
+		"slots": {
+			"sm1": {
+				"rgba": [
+					{
+						"color": "ffffffff",
+						"curve": [ 0.1, 1, 0.3, 1, 0.1, 1, 0.3, 1, 0.1, 1, 0.3, 1, 0.1, 1, 0.3, 0 ]
+					},
+					{ "time": 0.4, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.0333, "name": "sm2" },
+					{ "time": 0.0667, "name": "sm3" },
+					{ "time": 0.1, "name": "sm5" },
+					{ "time": 0.1333, "name": "sm7" },
+					{ "time": 0.1667, "name": "sm8" },
+					{ "time": 0.2, "name": "sm9" },
+					{ "time": 0.2333, "name": "sm10" },
+					{ "time": 0.3, "name": "sm11" },
+					{ "time": 0.3667, "name": "sm12" }
+				]
+			}
+		},
+		"bones": {
+			"bone6": {
+				"scale": [
+					{
+						"x": 1.086,
+						"y": 1.086,
+						"curve": [ 0.1, 1.086, 0.3, 1.883, 0.1, 1.086, 0.3, 1.883 ]
+					},
+					{ "time": 0.4, "x": 1.883, "y": 1.883 }
+				]
+			},
+			"root": {
+				"scale": [
+					{ "x": 0.981, "y": 1.019 }
+				]
+			}
+		}
+	}
+}
+}
